@@ -213,7 +213,7 @@
    <h1>Module <code>Animation</code></h1>
    
 <p>Module Animation
-Extends Resource</p>
+extends Resource</p>
 
 
 	<h2><a id="#(Animation)" >Type <code>Animation</code></a></h2>
@@ -240,6 +240,27 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).GetMemoryUse">Animation.GetMemoryUse()</a></td>
+		<td class="summary">
+<p>Function GetMemoryUse</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).GetName">Animation.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).GetNameHash">Animation.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Animation).GetNumTracks">Animation.GetNumTracks()</a></td>
 		<td class="summary">
 <p>Function GetNumTracks</p>
@@ -261,6 +282,20 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).Load">Animation.Load(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Load</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).Save">Animation.Save(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Save</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Animation).animationName">Animation.animationName</a></td>
 		<td class="summary">
 <p>Field animationName (Read only)</p>
@@ -278,6 +313,27 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Animation).length">Animation.length</a></td>
 		<td class="summary">
 <p>Field length (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).memoryUse">Animation.memoryUse</a></td>
+		<td class="summary">
+<p>Field memoryUse (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).name">Animation.name</a></td>
+		<td class="summary">
+<p>Field name (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Animation).nameHash">Animation.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
 
 </td>
 		</tr>
@@ -359,6 +415,63 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Animation).GetMemoryUse" >
+<strong>Animation.GetMemoryUse()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetMemoryUse</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Animation).GetName" >
+<strong>Animation.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Animation).GetNameHash" >
+<strong>Animation.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Animation).GetNumTracks" >
 <strong>Animation.GetNumTracks()</strong>
 </a>
@@ -424,6 +537,60 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Animation).Load" >
+<strong>Animation.Load(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Load</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Animation).Save" >
+<strong>Animation.Save(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Save</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#string</em>
 <a id="#(Animation).animationName" >
 <strong>Animation.animationName</strong>
@@ -462,6 +629,51 @@ Extends Resource</p>
 <dd>
 	
 <p>Field length (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Animation).memoryUse" >
+<strong>Animation.memoryUse</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field memoryUse (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Animation).name" >
+<strong>Animation.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(Animation).nameHash" >
+<strong>Animation.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
 
 
 </dd>

@@ -213,7 +213,7 @@
    <h1>Module <code>Image</code></h1>
    
 <p>Module Image
-Extends Resource</p>
+extends Resource</p>
 
 
 	<h2><a id="#(Image)" >Type <code>Image</code></a></h2>
@@ -268,6 +268,27 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).GetMemoryUse">Image.GetMemoryUse()</a></td>
+		<td class="summary">
+<p>Function GetMemoryUse</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).GetName">Image.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).GetNameHash">Image.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Image).GetNumCompressedLevels">Image.GetNumCompressedLevels()</a></td>
 		<td class="summary">
 <p>Function GetNumCompressedLevels</p>
@@ -317,6 +338,13 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).Load">Image.Load(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Load</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Image).LoadColorLUT">Image.LoadColorLUT(fileNamefileName)</a></td>
 		<td class="summary">
 <p>Function LoadColorLUT</p>
@@ -327,6 +355,13 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Image).Resize">Image.Resize(widthwidth, heightheight)</a></td>
 		<td class="summary">
 <p>Function Resize</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).Save">Image.Save(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Save</p>
 
 </td>
 		</tr>
@@ -411,6 +446,27 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Image).height">Image.height</a></td>
 		<td class="summary">
 <p>Field height (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).memoryUse">Image.memoryUse</a></td>
+		<td class="summary">
+<p>Field memoryUse (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).name">Image.name</a></td>
+		<td class="summary">
+<p>Field name (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Image).nameHash">Image.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
 
 </td>
 		</tr>
@@ -574,6 +630,63 @@ Extends Resource</p>
 		<h3>Return value</h3>
 				
 <p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Image).GetMemoryUse" >
+<strong>Image.GetMemoryUse()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetMemoryUse</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Image).GetName" >
+<strong>Image.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Image).GetNameHash" >
+<strong>Image.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
 
 
 </dd>
@@ -758,6 +871,33 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Image).Load" >
+<strong>Image.Load(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Load</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Image).LoadColorLUT" >
 <strong>Image.LoadColorLUT(fileNamefileName)</strong>
 </a>
@@ -804,6 +944,33 @@ Extends Resource</p>
 				<li>
 				
 <p><code><em>#number heightheight </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Image).Save" >
+<strong>Image.Save(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Save</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
 
 				</li>
 		</ul>
@@ -1091,6 +1258,51 @@ Extends Resource</p>
 <dd>
 	
 <p>Field height (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Image).memoryUse" >
+<strong>Image.memoryUse</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field memoryUse (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Image).name" >
+<strong>Image.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(Image).nameHash" >
+<strong>Image.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
 
 
 </dd>

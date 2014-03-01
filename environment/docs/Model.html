@@ -213,7 +213,7 @@
    <h1>Module <code>Model</code></h1>
    
 <p>Module Model
-Extends Resource</p>
+extends Resource</p>
 
 
 	<h2><a id="#(Model)" >Type <code>Model</code></a></h2>
@@ -229,6 +229,13 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Model).GetGeometry">Model.GetGeometry(indexindex, lodLevellodLevel)</a></td>
 		<td class="summary">
 <p>Function GetGeometry</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).GetMemoryUse">Model.GetMemoryUse()</a></td>
+		<td class="summary">
+<p>Function GetMemoryUse</p>
 
 </td>
 		</tr>
@@ -250,6 +257,20 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Model).GetMorphRangeStart">Model.GetMorphRangeStart(bufferIndexbufferIndex)</a></td>
 		<td class="summary">
 <p>Function GetMorphRangeStart</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).GetName">Model.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).GetNameHash">Model.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
 
 </td>
 		</tr>
@@ -282,9 +303,44 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).Load">Model.Load(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Load</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).Save">Model.Save(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Save</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Model).boundingBox">Model.boundingBox</a></td>
 		<td class="summary">
 <p>Field boundingBox (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).memoryUse">Model.memoryUse</a></td>
+		<td class="summary">
+<p>Field memoryUse (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).name">Model.name</a></td>
+		<td class="summary">
+<p>Field name (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Model).nameHash">Model.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
 
 </td>
 		</tr>
@@ -367,6 +423,25 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Model).GetMemoryUse" >
+<strong>Model.GetMemoryUse()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetMemoryUse</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Model).GetMorph" >
 <strong>Model.GetMorph(indexindex)</strong>
 </a>
@@ -441,6 +516,44 @@ Extends Resource</p>
 		<h3>Return value</h3>
 				
 <p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Model).GetName" >
+<strong>Model.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Model).GetNameHash" >
+<strong>Model.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
 
 
 </dd>
@@ -532,6 +645,60 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Model).Load" >
+<strong>Model.Load(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Load</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Model).Save" >
+<strong>Model.Save(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Save</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em><a href="BoundingBox.html##(BoundingBox)">BoundingBox#BoundingBox</a></em>
 <a id="#(Model).boundingBox" >
 <strong>Model.boundingBox</strong>
@@ -540,6 +707,51 @@ Extends Resource</p>
 <dd>
 	
 <p>Field boundingBox (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Model).memoryUse" >
+<strong>Model.memoryUse</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field memoryUse (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Model).name" >
+<strong>Model.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(Model).nameHash" >
+<strong>Model.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
 
 
 </dd>

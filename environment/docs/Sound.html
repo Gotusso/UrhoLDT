@@ -213,7 +213,7 @@
    <h1>Module <code>Sound</code></h1>
    
 <p>Module Sound
-Extends Resource</p>
+extends Resource</p>
 
 
 	<h2><a id="#(Sound)" >Type <code>Sound</code></a></h2>
@@ -254,6 +254,27 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).GetMemoryUse">Sound.GetMemoryUse()</a></td>
+		<td class="summary">
+<p>Function GetMemoryUse</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).GetName">Sound.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).GetNameHash">Sound.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Sound).GetSampleSize">Sound.GetSampleSize()</a></td>
 		<td class="summary">
 <p>Function GetSampleSize</p>
@@ -289,6 +310,13 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).Load">Sound.Load(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Load</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Sound).LoadOggVorbis">Sound.LoadOggVorbis(fileNamefileName)</a></td>
 		<td class="summary">
 <p>Function LoadOggVorbis</p>
@@ -306,6 +334,13 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Sound).LoadWav">Sound.LoadWav(fileNamefileName)</a></td>
 		<td class="summary">
 <p>Function LoadWav</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).Save">Sound.Save(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Save</p>
 
 </td>
 		</tr>
@@ -397,6 +432,27 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Sound).looped">Sound.looped</a></td>
 		<td class="summary">
 <p>Field looped</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).memoryUse">Sound.memoryUse</a></td>
+		<td class="summary">
+<p>Field memoryUse (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).name">Sound.name</a></td>
+		<td class="summary">
+<p>Field name (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Sound).nameHash">Sound.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
 
 </td>
 		</tr>
@@ -525,6 +581,63 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Sound).GetMemoryUse" >
+<strong>Sound.GetMemoryUse()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetMemoryUse</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Sound).GetName" >
+<strong>Sound.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Sound).GetNameHash" >
+<strong>Sound.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Sound).GetSampleSize" >
 <strong>Sound.GetSampleSize()</strong>
 </a>
@@ -620,6 +733,33 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Sound).Load" >
+<strong>Sound.Load(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Load</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Sound).LoadOggVorbis" >
 <strong>Sound.LoadOggVorbis(fileNamefileName)</strong>
 </a>
@@ -681,6 +821,33 @@ Extends Resource</p>
 <dd>
 	
 <p>Function LoadWav</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Sound).Save" >
+<strong>Sound.Save(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Save</p>
 
 
 		<h3>Parameter</h3>
@@ -943,6 +1110,51 @@ Extends Resource</p>
 <dd>
 	
 <p>Field looped</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Sound).memoryUse" >
+<strong>Sound.memoryUse</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field memoryUse (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Sound).name" >
+<strong>Sound.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(Sound).nameHash" >
+<strong>Sound.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
 
 
 </dd>

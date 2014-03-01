@@ -213,7 +213,7 @@
    <h1>Module <code>UIElement</code></h1>
    
 <p>Module UIElement
-Extends Serializable</p>
+extends Serializable</p>
 
 
 	<h2><a id="#(UIElement)" >Type <code>UIElement</code></a></h2>
@@ -282,6 +282,13 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetBaseType">UIElement.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetBringToBack">UIElement.GetBringToBack()</a></td>
 		<td class="summary">
 <p>Function GetBringToBack</p>
@@ -292,6 +299,13 @@ Extends Serializable</p>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetBringToFront">UIElement.GetBringToFront()</a></td>
 		<td class="summary">
 <p>Function GetBringToFront</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetCategory">UIElement.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -562,6 +576,20 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetType">UIElement.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetTypeName">UIElement.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).GetUseDerivedOpacity">UIElement.GetUseDerivedOpacity()</a></td>
 		<td class="summary">
 <p>Function GetUseDerivedOpacity</p>
@@ -695,6 +723,13 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).IsTemporary">UIElement.IsTemporary()</a></td>
+		<td class="summary">
+<p>Function IsTemporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).IsVisible">UIElement.IsVisible()</a></td>
 		<td class="summary">
 <p>Function IsVisible</p>
@@ -747,6 +782,13 @@ Extends Serializable</p>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).ScreenToElement">UIElement.ScreenToElement(screenPositionscreenPosition)</a></td>
 		<td class="summary">
 <p>Function ScreenToElement</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).SendEvent">UIElement.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
 
 </td>
 		</tr>
@@ -1052,6 +1094,13 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).SetTemporary">UIElement.SetTemporary(enableenable)</a></td>
+		<td class="summary">
+<p>Function SetTemporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).SetTraversalMode">UIElement.SetTraversalMode(traversalModetraversalMode)</a></td>
 		<td class="summary">
 <p>Function SetTraversalMode</p>
@@ -1115,6 +1164,13 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).baseType">UIElement.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).bringToBack">UIElement.bringToBack</a></td>
 		<td class="summary">
 <p>Field bringToBack</p>
@@ -1125,6 +1181,13 @@ Extends Serializable</p>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).bringToFront">UIElement.bringToFront</a></td>
 		<td class="summary">
 <p>Field bringToFront</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).category">UIElement.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
 
 </td>
 		</tr>
@@ -1472,9 +1535,30 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).temporary">UIElement.temporary</a></td>
+		<td class="summary">
+<p>Field temporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UIElement).traversalMode">UIElement.traversalMode</a></td>
 		<td class="summary">
 <p>Field traversalMode</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).type">UIElement.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UIElement).typeName">UIElement.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
 
 </td>
 		</tr>
@@ -1714,6 +1798,25 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(UIElement).GetBaseType" >
+<strong>UIElement.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(UIElement).GetBringToBack" >
 <strong>UIElement.GetBringToBack()</strong>
 </a>
@@ -1746,6 +1849,25 @@ Extends Serializable</p>
 				
 <p><em>#boolean:</em></p>
 
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UIElement).GetCategory" >
+<strong>UIElement.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
 
 </dd>
 </dl>
@@ -2498,6 +2620,44 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(UIElement).GetType" >
+<strong>UIElement.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UIElement).GetTypeName" >
+<strong>UIElement.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(UIElement).GetUseDerivedOpacity" >
 <strong>UIElement.GetUseDerivedOpacity()</strong>
 </a>
@@ -2901,6 +3061,25 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(UIElement).IsTemporary" >
+<strong>UIElement.IsTemporary()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function IsTemporary</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(UIElement).IsVisible" >
 <strong>UIElement.IsVisible()</strong>
 </a>
@@ -3073,6 +3252,33 @@ Extends Serializable</p>
 <p><em><a href="IntVector2.html##(IntVector2)">IntVector2#IntVector2</a>:</em></p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UIElement).SendEvent" >
+<strong>UIElement.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -4084,6 +4290,28 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(UIElement).SetTemporary" >
+<strong>UIElement.SetTemporary(enableenable)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetTemporary</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean enableenable </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(UIElement).SetTraversalMode" >
 <strong>UIElement.SetTraversalMode(traversalModetraversalMode)</strong>
 </a>
@@ -4263,6 +4491,21 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(UIElement).baseType" >
+<strong>UIElement.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#boolean</em>
 <a id="#(UIElement).bringToBack" >
 <strong>UIElement.bringToBack</strong>
@@ -4286,6 +4529,21 @@ Extends Serializable</p>
 <dd>
 	
 <p>Field bringToFront</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(UIElement).category" >
+<strong>UIElement.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
 
 
 </dd>
@@ -5031,6 +5289,21 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+		<em>#boolean</em>
+<a id="#(UIElement).temporary" >
+<strong>UIElement.temporary</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field temporary</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em><a href="TraversalMode.html##(TraversalMode)">TraversalMode#TraversalMode</a></em>
 <a id="#(UIElement).traversalMode" >
 <strong>UIElement.traversalMode</strong>
@@ -5039,6 +5312,36 @@ Extends Serializable</p>
 <dd>
 	
 <p>Field traversalMode</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(UIElement).type" >
+<strong>UIElement.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(UIElement).typeName" >
+<strong>UIElement.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

@@ -213,11 +213,32 @@
    <h1>Module <code>Scene</code></h1>
    
 <p>Module Scene
-Extends Node</p>
+extends Node</p>
 
 
 	<h2><a id="#(Scene)" >Type <code>Scene</code></a></h2>
 		<table class="function_list">
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).AddChild">Scene.AddChild(nodenode)</a></td>
+		<td class="summary">
+<p>Function AddChild</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).AddComponent">Scene.AddComponent(componentcomponent, idid, modemode)</a></td>
+		<td class="summary">
+<p>Function AddComponent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).AddListener">Scene.AddListener(componentcomponent)</a></td>
+		<td class="summary">
+<p>Function AddListener</p>
+
+</td>
+		</tr>
 		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).BeginThreadedUpdate">Scene.BeginThreadedUpdate()</a></td>
 		<td class="summary">
@@ -240,6 +261,13 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Clone">Scene.Clone(modemode)</a></td>
+		<td class="summary">
+<p>Function Clone</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).ComponentAdded">Scene.ComponentAdded(componentcomponent)</a></td>
 		<td class="summary">
 <p>Function ComponentAdded</p>
@@ -250,6 +278,27 @@ Extends Node</p>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).ComponentRemoved">Scene.ComponentRemoved(componentcomponent)</a></td>
 		<td class="summary">
 <p>Function ComponentRemoved</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).CreateChild">Scene.CreateChild(idid, modemode)</a></td>
+		<td class="summary">
+<p>Function CreateChild</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).CreateComponent">Scene.CreateComponent(typetype, modemode, idid)</a></td>
+		<td class="summary">
+<p>Function CreateComponent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).CreateScriptObject">Scene.CreateScriptObject(fileNamefileName, scriptObjectTypescriptObjectType)</a></td>
+		<td class="summary">
+<p>Function CreateScriptObject</p>
 
 </td>
 		</tr>
@@ -275,9 +324,51 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetBaseType">Scene.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetCategory">Scene.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).GetChecksum">Scene.GetChecksum()</a></td>
 		<td class="summary">
 <p>Function GetChecksum</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetChild">Scene.GetChild(indexindex)</a></td>
+		<td class="summary">
+<p>Function GetChild</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetComponent">Scene.GetComponent(typetype)</a></td>
+		<td class="summary">
+<p>Function GetComponent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetDirection">Scene.GetDirection()</a></td>
+		<td class="summary">
+<p>Function GetDirection</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetDirectionXYZ">Scene.GetDirectionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetDirectionXYZ</p>
 
 </td>
 		</tr>
@@ -310,9 +401,142 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetID">Scene.GetID()</a></td>
+		<td class="summary">
+<p>Function GetID</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetName">Scene.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetNameHash">Scene.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).GetNode">Scene.GetNode(idid)</a></td>
 		<td class="summary">
 <p>Function GetNode</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetNumChildren">Scene.GetNumChildren(recursiverecursive)</a></td>
+		<td class="summary">
+<p>Function GetNumChildren</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetNumComponents">Scene.GetNumComponents()</a></td>
+		<td class="summary">
+<p>Function GetNumComponents</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetNumNetworkComponents">Scene.GetNumNetworkComponents()</a></td>
+		<td class="summary">
+<p>Function GetNumNetworkComponents</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetOwner">Scene.GetOwner()</a></td>
+		<td class="summary">
+<p>Function GetOwner</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetParent">Scene.GetParent()</a></td>
+		<td class="summary">
+<p>Function GetParent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetPosition">Scene.GetPosition()</a></td>
+		<td class="summary">
+<p>Function GetPosition</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetPositionXYZ">Scene.GetPositionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetPositionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetRight">Scene.GetRight()</a></td>
+		<td class="summary">
+<p>Function GetRight</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetRightXYZ">Scene.GetRightXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetRightXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetRotation">Scene.GetRotation()</a></td>
+		<td class="summary">
+<p>Function GetRotation</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetRotationWXYZ">Scene.GetRotationWXYZ(ww, xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetRotationWXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetRotationXYZ">Scene.GetRotationXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetRotationXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetScale">Scene.GetScale()</a></td>
+		<td class="summary">
+<p>Function GetScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetScaleXYZ">Scene.GetScaleXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetScaleXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetScene">Scene.GetScene()</a></td>
+		<td class="summary">
+<p>Function GetScene</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetScriptObject">Scene.GetScriptObject(scriptObjectTypescriptObjectType)</a></td>
+		<td class="summary">
+<p>Function GetScriptObject</p>
 
 </td>
 		</tr>
@@ -338,6 +562,48 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetTransform">Scene.GetTransform()</a></td>
+		<td class="summary">
+<p>Function GetTransform</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetType">Scene.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetTypeName">Scene.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetUp">Scene.GetUp()</a></td>
+		<td class="summary">
+<p>Function GetUp</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetUpXYZ">Scene.GetUpXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetUpXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetVar">Scene.GetVar(keykey)</a></td>
+		<td class="summary">
+<p>Function GetVar</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).GetVarName">Scene.GetVarName(hashhash)</a></td>
 		<td class="summary">
 <p>Function GetVarName</p>
@@ -348,6 +614,125 @@ Extends Node</p>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).GetVarNamesAttr">Scene.GetVarNamesAttr()</a></td>
 		<td class="summary">
 <p>Function GetVarNamesAttr</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetVars">Scene.GetVars()</a></td>
+		<td class="summary">
+<p>Function GetVars</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldDirection">Scene.GetWorldDirection()</a></td>
+		<td class="summary">
+<p>Function GetWorldDirection</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldDirectionXYZ">Scene.GetWorldDirectionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldDirectionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldPosition">Scene.GetWorldPosition()</a></td>
+		<td class="summary">
+<p>Function GetWorldPosition</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldPositionXYZ">Scene.GetWorldPositionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldPositionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldRight">Scene.GetWorldRight()</a></td>
+		<td class="summary">
+<p>Function GetWorldRight</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldRightXYZ">Scene.GetWorldRightXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldRightXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldRotation">Scene.GetWorldRotation()</a></td>
+		<td class="summary">
+<p>Function GetWorldRotation</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldRotationWXYZ">Scene.GetWorldRotationWXYZ(ww, xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldRotationWXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldRotationXYZ">Scene.GetWorldRotationXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldRotationXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldScale">Scene.GetWorldScale()</a></td>
+		<td class="summary">
+<p>Function GetWorldScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldScaleXYZ">Scene.GetWorldScaleXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldScaleXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldTransform">Scene.GetWorldTransform()</a></td>
+		<td class="summary">
+<p>Function GetWorldTransform</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldUp">Scene.GetWorldUp()</a></td>
+		<td class="summary">
+<p>Function GetWorldUp</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).GetWorldUpXYZ">Scene.GetWorldUpXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function GetWorldUpXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).HasComponent">Scene.HasComponent(typetype)</a></td>
+		<td class="summary">
+<p>Function HasComponent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).ID">Scene.ID</a></td>
+		<td class="summary">
+<p>Field ID</p>
 
 </td>
 		</tr>
@@ -373,6 +758,27 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).IsDirty">Scene.IsDirty()</a></td>
+		<td class="summary">
+<p>Function IsDirty</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).IsEnabled">Scene.IsEnabled()</a></td>
+		<td class="summary">
+<p>Function IsEnabled</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).IsTemporary">Scene.IsTemporary()</a></td>
+		<td class="summary">
+<p>Function IsTemporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).IsThreadedUpdate">Scene.IsThreadedUpdate()</a></td>
 		<td class="summary">
 <p>Function IsThreadedUpdate</p>
@@ -387,7 +793,7 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Scene).Load">Scene.Load(fileNamefileName)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Load">Scene.Load(sourcesource, resolverresolver, loadChildrenloadChildren, rewriteIDsrewriteIDs, modemode)</a></td>
 		<td class="summary">
 <p>Function Load</p>
 
@@ -408,9 +814,37 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Scene).LoadXML">Scene.LoadXML(fileNamefileName)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).LoadXML">Scene.LoadXML(sourcesource, resolverresolver, loadChildrenloadChildren, rewriteIDsrewriteIDs, modemode)</a></td>
 		<td class="summary">
 <p>Function LoadXML</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).LocalToWorld">Scene.LocalToWorld(vectorvector)</a></td>
+		<td class="summary">
+<p>Function LocalToWorld</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).LookAt">Scene.LookAt(targettarget, upAxisupAxis)</a></td>
+		<td class="summary">
+<p>Function LookAt</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).LookAtXYZ">Scene.LookAtXYZ(xx, yy, zz, upXupX, upYupY, upZupZ)</a></td>
+		<td class="summary">
+<p>Function LookAtXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).MarkDirty">Scene.MarkDirty()</a></td>
+		<td class="summary">
+<p>Function MarkDirty</p>
 
 </td>
 		</tr>
@@ -429,6 +863,13 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Node">Scene.Node()</a></td>
+		<td class="summary">
+<p>Function Node</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).NodeAdded">Scene.NodeAdded(nodenode)</a></td>
 		<td class="summary">
 <p>Function NodeAdded</p>
@@ -443,9 +884,100 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Pitch">Scene.Pitch(angleangle, fixedAxisfixedAxis)</a></td>
+		<td class="summary">
+<p>Function Pitch</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).PrepareNetworkUpdate">Scene.PrepareNetworkUpdate()</a></td>
 		<td class="summary">
 <p>Function PrepareNetworkUpdate</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Remove">Scene.Remove()</a></td>
+		<td class="summary">
+<p>Function Remove</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveAllChildren">Scene.RemoveAllChildren()</a></td>
+		<td class="summary">
+<p>Function RemoveAllChildren</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveAllComponents">Scene.RemoveAllComponents()</a></td>
+		<td class="summary">
+<p>Function RemoveAllComponents</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveChild">Scene.RemoveChild(nodenode)</a></td>
+		<td class="summary">
+<p>Function RemoveChild</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveChildren">Scene.RemoveChildren(removeReplicatedremoveReplicated, removeLocalremoveLocal, recursiverecursive)</a></td>
+		<td class="summary">
+<p>Function RemoveChildren</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveComponent">Scene.RemoveComponent(typetype)</a></td>
+		<td class="summary">
+<p>Function RemoveComponent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveComponents">Scene.RemoveComponents(removeReplicatedremoveReplicated, removeLocalremoveLocal)</a></td>
+		<td class="summary">
+<p>Function RemoveComponents</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RemoveListener">Scene.RemoveListener(componentcomponent)</a></td>
+		<td class="summary">
+<p>Function RemoveListener</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).ResetScene">Scene.ResetScene()</a></td>
+		<td class="summary">
+<p>Function ResetScene</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Roll">Scene.Roll(angleangle, fixedAxisfixedAxis)</a></td>
+		<td class="summary">
+<p>Function Roll</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Rotate">Scene.Rotate(deltadelta, fixedAxisfixedAxis)</a></td>
+		<td class="summary">
+<p>Function Rotate</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).RotateXYZ">Scene.RotateXYZ(xx, yy, zz, fixedAxisfixedAxis)</a></td>
+		<td class="summary">
+<p>Function RotateXYZ</p>
 
 </td>
 		</tr>
@@ -457,9 +989,23 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Scene).SaveXML">Scene.SaveXML(fileNamefileName)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SaveXML">Scene.SaveXML(destdest)</a></td>
 		<td class="summary">
 <p>Function SaveXML</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Scale">Scene.Scale(scalescale)</a></td>
+		<td class="summary">
+<p>Function Scale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).ScaleXYZ">Scene.ScaleXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function ScaleXYZ</p>
 
 </td>
 		</tr>
@@ -471,9 +1017,114 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SendEvent">Scene.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetDirection">Scene.SetDirection(directiondirection)</a></td>
+		<td class="summary">
+<p>Function SetDirection</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetDirectionXYZ">Scene.SetDirectionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetDirectionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).SetElapsedTime">Scene.SetElapsedTime(timetime)</a></td>
 		<td class="summary">
 <p>Function SetElapsedTime</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetEnabled">Scene.SetEnabled(enableenable, recursiverecursive)</a></td>
+		<td class="summary">
+<p>Function SetEnabled</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetID">Scene.SetID(idid)</a></td>
+		<td class="summary">
+<p>Function SetID</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetName">Scene.SetName(namename)</a></td>
+		<td class="summary">
+<p>Function SetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetOwner">Scene.SetOwner(ownerowner)</a></td>
+		<td class="summary">
+<p>Function SetOwner</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetParent">Scene.SetParent(parentparent)</a></td>
+		<td class="summary">
+<p>Function SetParent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetPosition">Scene.SetPosition(positionposition)</a></td>
+		<td class="summary">
+<p>Function SetPosition</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetPositionXYZ">Scene.SetPositionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetPositionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetRotation">Scene.SetRotation(rotationrotation)</a></td>
+		<td class="summary">
+<p>Function SetRotation</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetRotationXYZ">Scene.SetRotationXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetRotationXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetScale">Scene.SetScale(scalescale)</a></td>
+		<td class="summary">
+<p>Function SetScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetScaleXYZ">Scene.SetScaleXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetScaleXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetScene">Scene.SetScene(scenescene)</a></td>
+		<td class="summary">
+<p>Function SetScene</p>
 
 </td>
 		</tr>
@@ -492,9 +1143,23 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetTemporary">Scene.SetTemporary(enableenable)</a></td>
+		<td class="summary">
+<p>Function SetTemporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).SetTimeScale">Scene.SetTimeScale(scalescale)</a></td>
 		<td class="summary">
 <p>Function SetTimeScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetTransform">Scene.SetTransform(positionposition, rotationrotation, scalescale)</a></td>
+		<td class="summary">
+<p>Function SetTransform</p>
 
 </td>
 		</tr>
@@ -506,9 +1171,79 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetVar">Scene.SetVar(keykey, valuevalue)</a></td>
+		<td class="summary">
+<p>Function SetVar</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).SetVarNamesAttr">Scene.SetVarNamesAttr(valuevalue)</a></td>
 		<td class="summary">
 <p>Function SetVarNamesAttr</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldDirection">Scene.SetWorldDirection(directiondirection)</a></td>
+		<td class="summary">
+<p>Function SetWorldDirection</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldDirectionXYZ">Scene.SetWorldDirectionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetWorldDirectionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldPosition">Scene.SetWorldPosition(positionposition)</a></td>
+		<td class="summary">
+<p>Function SetWorldPosition</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldPositionXYZ">Scene.SetWorldPositionXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetWorldPositionXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldRotation">Scene.SetWorldRotation(rotationrotation)</a></td>
+		<td class="summary">
+<p>Function SetWorldRotation</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldRotationXYZ">Scene.SetWorldRotationXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetWorldRotationXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldScale">Scene.SetWorldScale(scalescale)</a></td>
+		<td class="summary">
+<p>Function SetWorldScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldScaleXYZ">Scene.SetWorldScaleXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function SetWorldScaleXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).SetWorldTransform">Scene.SetWorldTransform(positionposition, rotationrotation, scalescale)</a></td>
+		<td class="summary">
+<p>Function SetWorldTransform</p>
 
 </td>
 		</tr>
@@ -520,9 +1255,51 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Translate">Scene.Translate(deltadelta)</a></td>
+		<td class="summary">
+<p>Function Translate</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).TranslateRelative">Scene.TranslateRelative(deltadelta)</a></td>
+		<td class="summary">
+<p>Function TranslateRelative</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).TranslateRelativeXYZ">Scene.TranslateRelativeXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function TranslateRelativeXYZ</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).TranslateXYZ">Scene.TranslateXYZ(xx, yy, zz)</a></td>
+		<td class="summary">
+<p>Function TranslateXYZ</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).Update">Scene.Update(timeSteptimeStep)</a></td>
 		<td class="summary">
 <p>Function Update</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).WorldToLocal">Scene.WorldToLocal(vectorvector)</a></td>
+		<td class="summary">
+<p>Function WorldToLocal</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).Yaw">Scene.Yaw(angleangle, fixedAxisfixedAxis)</a></td>
+		<td class="summary">
+<p>Function Yaw</p>
 
 </td>
 		</tr>
@@ -541,6 +1318,20 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).baseType">Scene.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).category">Scene.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).checksum">Scene.checksum</a></td>
 		<td class="summary">
 <p>Field checksum (Read only)</p>
@@ -555,9 +1346,30 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).direction">Scene.direction</a></td>
+		<td class="summary">
+<p>Field direction</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).dirty">Scene.dirty</a></td>
+		<td class="summary">
+<p>Field dirty (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).elapsedTime">Scene.elapsedTime</a></td>
 		<td class="summary">
 <p>Field elapsedTime</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).enabled">Scene.enabled</a></td>
+		<td class="summary">
+<p>Field enabled</p>
 
 </td>
 		</tr>
@@ -569,9 +1381,86 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).name">Scene.name</a></td>
+		<td class="summary">
+<p>Field name</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).nameHash">Scene.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).new">Scene.new()</a></td>
 		<td class="summary">
 <p>Function new</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).numComponents">Scene.numComponents</a></td>
+		<td class="summary">
+<p>Field numComponents (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).numNetworkComponents">Scene.numNetworkComponents</a></td>
+		<td class="summary">
+<p>Field numNetworkComponents (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).owner">Scene.owner</a></td>
+		<td class="summary">
+<p>Field owner</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).parent">Scene.parent</a></td>
+		<td class="summary">
+<p>Field parent</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).position">Scene.position</a></td>
+		<td class="summary">
+<p>Field position</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).right">Scene.right</a></td>
+		<td class="summary">
+<p>Field right (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).rotation">Scene.rotation</a></td>
+		<td class="summary">
+<p>Field rotation</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).scale">Scene.scale</a></td>
+		<td class="summary">
+<p>Field scale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).scene">Scene.scene</a></td>
+		<td class="summary">
+<p>Field scene</p>
 
 </td>
 		</tr>
@@ -590,6 +1479,13 @@ Extends Node</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).temporary">Scene.temporary</a></td>
+		<td class="summary">
+<p>Field temporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).threadedUpdate">Scene.threadedUpdate</a></td>
 		<td class="summary">
 <p>Field threadedUpdate (Read only)</p>
@@ -600,6 +1496,34 @@ Extends Node</p>
 		<td class="name" nowrap="nowrap"><a href="##(Scene).timeScale">Scene.timeScale</a></td>
 		<td class="summary">
 <p>Field timeScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).transform">Scene.transform</a></td>
+		<td class="summary">
+<p>Field transform (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).type">Scene.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).typeName">Scene.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).up">Scene.up</a></td>
+		<td class="summary">
+<p>Field up (Read only)</p>
 
 </td>
 		</tr>
@@ -617,10 +1541,135 @@ Extends Node</p>
 
 </td>
 		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldDirection">Scene.worldDirection</a></td>
+		<td class="summary">
+<p>Field worldDirection</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldPosition">Scene.worldPosition</a></td>
+		<td class="summary">
+<p>Field worldPosition</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldRight">Scene.worldRight</a></td>
+		<td class="summary">
+<p>Field worldRight (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldRotation">Scene.worldRotation</a></td>
+		<td class="summary">
+<p>Field worldRotation</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldScale">Scene.worldScale</a></td>
+		<td class="summary">
+<p>Field worldScale</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldTransform">Scene.worldTransform</a></td>
+		<td class="summary">
+<p>Field worldTransform (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Scene).worldUp">Scene.worldUp</a></td>
+		<td class="summary">
+<p>Field worldUp (Read only)</p>
+
+</td>
+		</tr>
 	</table>
 
 	<h2><a id="#(Scene)" >Type <code>Scene</code></a></h2>
 		<h3>Field(s)</h3>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).AddChild" >
+<strong>Scene.AddChild(nodenode)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function AddChild</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Node.html##(Node)">Node#Node</a> nodenode </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).AddComponent" >
+<strong>Scene.AddComponent(componentcomponent, idid, modemode)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function AddComponent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Component.html##(Component)">Component#Component</a> componentcomponent </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number idid </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="CreateMode.html##(CreateMode)">CreateMode#CreateMode</a> modemode </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).AddListener" >
+<strong>Scene.AddListener(componentcomponent)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function AddListener</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Component.html##(Component)">Component#Component</a> componentcomponent </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
 		<dl class="function">
 <dt>
 
@@ -687,6 +1736,33 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).Clone" >
+<strong>Scene.Clone(modemode)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Clone</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="CreateMode.html##(CreateMode)">CreateMode#CreateMode</a> modemode </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Node.html##(Node)">Node#Node</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).ComponentAdded" >
 <strong>Scene.ComponentAdded(componentcomponent)</strong>
 </a>
@@ -726,6 +1802,107 @@ Extends Node</p>
 
 				</li>
 		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).CreateChild" >
+<strong>Scene.CreateChild(idid, modemode)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function CreateChild</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number idid </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="CreateMode.html##(CreateMode)">CreateMode#CreateMode</a> modemode </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Node.html##(Node)">Node#Node</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).CreateComponent" >
+<strong>Scene.CreateComponent(typetype, modemode, idid)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function CreateComponent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string typetype </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="CreateMode.html##(CreateMode)">CreateMode#CreateMode</a> modemode </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number idid </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Component.html##(Component)">Component#Component</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).CreateScriptObject" >
+<strong>Scene.CreateScriptObject(fileNamefileName, scriptObjectTypescriptObjectType)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function CreateScriptObject</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#string scriptObjectTypescriptObjectType </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
 </dd>
 </dl>
 		<dl class="function">
@@ -786,6 +1963,44 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).GetBaseType" >
+<strong>Scene.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetCategory" >
+<strong>Scene.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).GetChecksum" >
 <strong>Scene.GetChecksum()</strong>
 </a>
@@ -800,6 +2015,111 @@ Extends Node</p>
 <p><em>#number:</em></p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetChild" >
+<strong>Scene.GetChild(indexindex)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetChild</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number indexindex </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Node.html##(Node)">Node#Node</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetComponent" >
+<strong>Scene.GetComponent(typetype)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetComponent</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string typetype </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Component.html##(Component)">Component#Component</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetDirection" >
+<strong>Scene.GetDirection()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetDirection</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetDirectionXYZ" >
+<strong>Scene.GetDirectionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetDirectionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -897,6 +2217,63 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).GetID" >
+<strong>Scene.GetID()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetID</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetName" >
+<strong>Scene.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetNameHash" >
+<strong>Scene.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).GetNode" >
 <strong>Scene.GetNode(idid)</strong>
 </a>
@@ -917,6 +2294,396 @@ Extends Node</p>
 		<h3>Return value</h3>
 				
 <p><em><a href="Node.html##(Node)">Node#Node</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetNumChildren" >
+<strong>Scene.GetNumChildren(recursiverecursive)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNumChildren</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean recursiverecursive </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetNumComponents" >
+<strong>Scene.GetNumComponents()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNumComponents</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetNumNetworkComponents" >
+<strong>Scene.GetNumNetworkComponents()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNumNetworkComponents</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetOwner" >
+<strong>Scene.GetOwner()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetOwner</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Connection.html##(Connection)">Connection#Connection</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetParent" >
+<strong>Scene.GetParent()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetParent</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Node.html##(Node)">Node#Node</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetPosition" >
+<strong>Scene.GetPosition()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetPosition</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const Vector3#const Vector3</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetPositionXYZ" >
+<strong>Scene.GetPositionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetPositionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetRight" >
+<strong>Scene.GetRight()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetRight</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetRightXYZ" >
+<strong>Scene.GetRightXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetRightXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetRotation" >
+<strong>Scene.GetRotation()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetRotation</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const Quaternion#const Quaternion</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetRotationWXYZ" >
+<strong>Scene.GetRotationWXYZ(ww, xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetRotationWXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number ww </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetRotationXYZ" >
+<strong>Scene.GetRotationXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetRotationXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetScale" >
+<strong>Scene.GetScale()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetScale</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const Vector3#const Vector3</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetScaleXYZ" >
+<strong>Scene.GetScaleXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetScaleXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetScene" >
+<strong>Scene.GetScene()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetScene</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Scene.html##(Scene)">Scene#Scene</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetScriptObject" >
+<strong>Scene.GetScriptObject(scriptObjectTypescriptObjectType)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetScriptObject</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string scriptObjectTypescriptObjectType </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
 
 
 </dd>
@@ -981,6 +2748,141 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).GetTransform" >
+<strong>Scene.GetTransform()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTransform</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Matrix3x4.html##(Matrix3x4)">Matrix3x4#Matrix3x4</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetType" >
+<strong>Scene.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetTypeName" >
+<strong>Scene.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetUp" >
+<strong>Scene.GetUp()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetUp</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetUpXYZ" >
+<strong>Scene.GetUpXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetUpXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetVar" >
+<strong>Scene.GetVar(keykey)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetVar</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a> keykey </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+
+<p>const Variant#const Variant</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).GetVarName" >
 <strong>Scene.GetVarName(hashhash)</strong>
 </a>
@@ -1020,6 +2922,429 @@ Extends Node</p>
 		<h3>Return value</h3>
 				
 <p><em>#string:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetVars" >
+<strong>Scene.GetVars()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetVars</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const VariantMap#const VariantMap</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldDirection" >
+<strong>Scene.GetWorldDirection()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldDirection</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldDirectionXYZ" >
+<strong>Scene.GetWorldDirectionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldDirectionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldPosition" >
+<strong>Scene.GetWorldPosition()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldPosition</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldPositionXYZ" >
+<strong>Scene.GetWorldPositionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldPositionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldRight" >
+<strong>Scene.GetWorldRight()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldRight</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldRightXYZ" >
+<strong>Scene.GetWorldRightXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldRightXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldRotation" >
+<strong>Scene.GetWorldRotation()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldRotation</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldRotationWXYZ" >
+<strong>Scene.GetWorldRotationWXYZ(ww, xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldRotationWXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number ww </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldRotationXYZ" >
+<strong>Scene.GetWorldRotationXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldRotationXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldScale" >
+<strong>Scene.GetWorldScale()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldScale</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldScaleXYZ" >
+<strong>Scene.GetWorldScaleXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldScaleXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldTransform" >
+<strong>Scene.GetWorldTransform()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldTransform</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const Matrix3x4#const Matrix3x4</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldUp" >
+<strong>Scene.GetWorldUp()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldUp</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).GetWorldUpXYZ" >
+<strong>Scene.GetWorldUpXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetWorldUpXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).HasComponent" >
+<strong>Scene.HasComponent(typetype)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function HasComponent</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string typetype </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Scene).ID" >
+<strong>Scene.ID</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field ID</p>
 
 
 </dd>
@@ -1130,6 +3455,63 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).IsDirty" >
+<strong>Scene.IsDirty()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function IsDirty</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).IsEnabled" >
+<strong>Scene.IsEnabled()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function IsEnabled</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).IsTemporary" >
+<strong>Scene.IsTemporary()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function IsTemporary</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).IsThreadedUpdate" >
 <strong>Scene.IsThreadedUpdate()</strong>
 </a>
@@ -1169,7 +3551,7 @@ Extends Node</p>
 <dt>
 
 <a id="#(Scene).Load" >
-<strong>Scene.Load(fileNamefileName)</strong>
+<strong>Scene.Load(sourcesource, resolverresolver, loadChildrenloadChildren, rewriteIDsrewriteIDs, modemode)</strong>
 </a>
 </dt>
 <dd>
@@ -1177,11 +3559,31 @@ Extends Node</p>
 <p>Function Load</p>
 
 
-		<h3>Parameter</h3>
+		<h3>Parameters</h3>
 		<ul>
 				<li>
 				
-<p><code><em>#string fileNamefileName </em></code>: </p>
+<p><code><em><a href="Deserializer.html##(Deserializer)">Deserializer#Deserializer</a> sourcesource </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="SceneResolver.html##(SceneResolver)">SceneResolver#SceneResolver</a> resolverresolver </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean loadChildrenloadChildren </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean rewriteIDsrewriteIDs </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="CreateMode.html##(CreateMode)">CreateMode#CreateMode</a> modemode </em></code>: </p>
 
 				</li>
 		</ul>
@@ -1250,7 +3652,7 @@ Extends Node</p>
 <dt>
 
 <a id="#(Scene).LoadXML" >
-<strong>Scene.LoadXML(fileNamefileName)</strong>
+<strong>Scene.LoadXML(sourcesource, resolverresolver, loadChildrenloadChildren, rewriteIDsrewriteIDs, modemode)</strong>
 </a>
 </dt>
 <dd>
@@ -1258,17 +3660,152 @@ Extends Node</p>
 <p>Function LoadXML</p>
 
 
-		<h3>Parameter</h3>
+		<h3>Parameters</h3>
 		<ul>
 				<li>
 				
-<p><code><em>#string fileNamefileName </em></code>: </p>
+<p><code><em><a href="XMLElement.html##(XMLElement)">XMLElement#XMLElement</a> sourcesource </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="SceneResolver.html##(SceneResolver)">SceneResolver#SceneResolver</a> resolverresolver </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean loadChildrenloadChildren </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean rewriteIDsrewriteIDs </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="CreateMode.html##(CreateMode)">CreateMode#CreateMode</a> modemode </em></code>: </p>
 
 				</li>
 		</ul>
 		<h3>Return value</h3>
 				
 <p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).LocalToWorld" >
+<strong>Scene.LocalToWorld(vectorvector)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function LocalToWorld</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector4.html##(Vector4)">Vector4#Vector4</a> vectorvector </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).LookAt" >
+<strong>Scene.LookAt(targettarget, upAxisupAxis)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function LookAt</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> targettarget </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> upAxisupAxis </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).LookAtXYZ" >
+<strong>Scene.LookAtXYZ(xx, yy, zz, upXupX, upYupY, upZupZ)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function LookAtXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number upXupX </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number upYupY </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number upZupZ </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).MarkDirty" >
+<strong>Scene.MarkDirty()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function MarkDirty</p>
 
 
 </dd>
@@ -1320,6 +3857,20 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).Node" >
+<strong>Scene.Node()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Node</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).NodeAdded" >
 <strong>Scene.NodeAdded(nodenode)</strong>
 </a>
@@ -1364,6 +3915,33 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).Pitch" >
+<strong>Scene.Pitch(angleangle, fixedAxisfixedAxis)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Pitch</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number angleangle </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean fixedAxisfixedAxis </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).PrepareNetworkUpdate" >
 <strong>Scene.PrepareNetworkUpdate()</strong>
 </a>
@@ -1373,6 +3951,278 @@ Extends Node</p>
 <p>Function PrepareNetworkUpdate</p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).Remove" >
+<strong>Scene.Remove()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Remove</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveAllChildren" >
+<strong>Scene.RemoveAllChildren()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveAllChildren</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveAllComponents" >
+<strong>Scene.RemoveAllComponents()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveAllComponents</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveChild" >
+<strong>Scene.RemoveChild(nodenode)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveChild</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Node.html##(Node)">Node#Node</a> nodenode </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveChildren" >
+<strong>Scene.RemoveChildren(removeReplicatedremoveReplicated, removeLocalremoveLocal, recursiverecursive)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveChildren</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean removeReplicatedremoveReplicated </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean removeLocalremoveLocal </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean recursiverecursive </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveComponent" >
+<strong>Scene.RemoveComponent(typetype)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveComponent</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string typetype </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveComponents" >
+<strong>Scene.RemoveComponents(removeReplicatedremoveReplicated, removeLocalremoveLocal)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveComponents</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean removeReplicatedremoveReplicated </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean removeLocalremoveLocal </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RemoveListener" >
+<strong>Scene.RemoveListener(componentcomponent)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RemoveListener</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Component.html##(Component)">Component#Component</a> componentcomponent </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).ResetScene" >
+<strong>Scene.ResetScene()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function ResetScene</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).Roll" >
+<strong>Scene.Roll(angleangle, fixedAxisfixedAxis)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Roll</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number angleangle </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean fixedAxisfixedAxis </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).Rotate" >
+<strong>Scene.Rotate(deltadelta, fixedAxisfixedAxis)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Rotate</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a> deltadelta </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean fixedAxisfixedAxis </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).RotateXYZ" >
+<strong>Scene.RotateXYZ(xx, yy, zz, fixedAxisfixedAxis)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function RotateXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean fixedAxisfixedAxis </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -1406,7 +4256,7 @@ Extends Node</p>
 <dt>
 
 <a id="#(Scene).SaveXML" >
-<strong>Scene.SaveXML(fileNamefileName)</strong>
+<strong>Scene.SaveXML(destdest)</strong>
 </a>
 </dt>
 <dd>
@@ -1418,7 +4268,7 @@ Extends Node</p>
 		<ul>
 				<li>
 				
-<p><code><em>#string fileNamefileName </em></code>: </p>
+<p><code><em><a href="File.html##(File)">File#File</a> destdest </em></code>: </p>
 
 				</li>
 		</ul>
@@ -1427,6 +4277,60 @@ Extends Node</p>
 <p><em>#boolean:</em></p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).Scale" >
+<strong>Scene.Scale(scalescale)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Scale</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scalescale </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).ScaleXYZ" >
+<strong>Scene.ScaleXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function ScaleXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -1446,6 +4350,87 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).SendEvent" >
+<strong>Scene.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetDirection" >
+<strong>Scene.SetDirection(directiondirection)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetDirection</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> directiondirection </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetDirectionXYZ" >
+<strong>Scene.SetDirectionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetDirectionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).SetElapsedTime" >
 <strong>Scene.SetElapsedTime(timetime)</strong>
 </a>
@@ -1460,6 +4445,305 @@ Extends Node</p>
 				<li>
 				
 <p><code><em>#number timetime </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetEnabled" >
+<strong>Scene.SetEnabled(enableenable, recursiverecursive)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetEnabled</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean enableenable </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean recursiverecursive </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetID" >
+<strong>Scene.SetID(idid)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetID</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number idid </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetName" >
+<strong>Scene.SetName(namename)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetName</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string namename </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetOwner" >
+<strong>Scene.SetOwner(ownerowner)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetOwner</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Connection.html##(Connection)">Connection#Connection</a> ownerowner </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetParent" >
+<strong>Scene.SetParent(parentparent)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetParent</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Node.html##(Node)">Node#Node</a> parentparent </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetPosition" >
+<strong>Scene.SetPosition(positionposition)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetPosition</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> positionposition </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetPositionXYZ" >
+<strong>Scene.SetPositionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetPositionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetRotation" >
+<strong>Scene.SetRotation(rotationrotation)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetRotation</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a> rotationrotation </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetRotationXYZ" >
+<strong>Scene.SetRotationXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetRotationXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetScale" >
+<strong>Scene.SetScale(scalescale)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetScale</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scalescale </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetScaleXYZ" >
+<strong>Scene.SetScaleXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetScaleXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetScene" >
+<strong>Scene.SetScene(scenescene)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetScene</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Scene.html##(Scene)">Scene#Scene</a> scenescene </em></code>: </p>
 
 				</li>
 		</ul>
@@ -1512,6 +4796,28 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).SetTemporary" >
+<strong>Scene.SetTemporary(enableenable)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetTemporary</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean enableenable </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).SetTimeScale" >
 <strong>Scene.SetTimeScale(scalescale)</strong>
 </a>
@@ -1526,6 +4832,38 @@ Extends Node</p>
 				<li>
 				
 <p><code><em>#number scalescale </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetTransform" >
+<strong>Scene.SetTransform(positionposition, rotationrotation, scalescale)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetTransform</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> positionposition </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a> rotationrotation </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scalescale </em></code>: </p>
 
 				</li>
 		</ul>
@@ -1556,6 +4894,33 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).SetVar" >
+<strong>Scene.SetVar(keykey, valuevalue)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetVar</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a> keykey </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="Variant.html##(Variant)">Variant#Variant</a> valuevalue </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).SetVarNamesAttr" >
 <strong>Scene.SetVarNamesAttr(valuevalue)</strong>
 </a>
@@ -1578,6 +4943,254 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Scene).SetWorldDirection" >
+<strong>Scene.SetWorldDirection(directiondirection)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldDirection</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> directiondirection </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldDirectionXYZ" >
+<strong>Scene.SetWorldDirectionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldDirectionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldPosition" >
+<strong>Scene.SetWorldPosition(positionposition)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldPosition</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> positionposition </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldPositionXYZ" >
+<strong>Scene.SetWorldPositionXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldPositionXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldRotation" >
+<strong>Scene.SetWorldRotation(rotationrotation)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldRotation</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a> rotationrotation </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldRotationXYZ" >
+<strong>Scene.SetWorldRotationXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldRotationXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldScale" >
+<strong>Scene.SetWorldScale(scalescale)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldScale</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scalescale </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldScaleXYZ" >
+<strong>Scene.SetWorldScaleXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldScaleXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).SetWorldTransform" >
+<strong>Scene.SetWorldTransform(positionposition, rotationrotation, scalescale)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetWorldTransform</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> positionposition </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a> rotationrotation </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scalescale </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).StopAsyncLoading" >
 <strong>Scene.StopAsyncLoading()</strong>
 </a>
@@ -1587,6 +5200,114 @@ Extends Node</p>
 <p>Function StopAsyncLoading</p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).Translate" >
+<strong>Scene.Translate(deltadelta)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Translate</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> deltadelta </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).TranslateRelative" >
+<strong>Scene.TranslateRelative(deltadelta)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function TranslateRelative</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> deltadelta </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).TranslateRelativeXYZ" >
+<strong>Scene.TranslateRelativeXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function TranslateRelativeXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).TranslateXYZ" >
+<strong>Scene.TranslateXYZ(xx, yy, zz)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function TranslateXYZ</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number xx </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number yy </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#number zz </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -1606,6 +5327,60 @@ Extends Node</p>
 				<li>
 				
 <p><code><em>#number timeSteptimeStep </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).WorldToLocal" >
+<strong>Scene.WorldToLocal(vectorvector)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function WorldToLocal</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em><a href="Vector4.html##(Vector4)">Vector4#Vector4</a> vectorvector </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Scene).Yaw" >
+<strong>Scene.Yaw(angleangle, fixedAxisfixedAxis)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Yaw</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#number angleangle </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em>#boolean fixedAxisfixedAxis </em></code>: </p>
 
 				</li>
 		</ul>
@@ -1644,6 +5419,36 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Scene).baseType" >
+<strong>Scene.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Scene).category" >
+<strong>Scene.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#number</em>
 <a id="#(Scene).checksum" >
 <strong>Scene.checksum</strong>
@@ -1673,6 +5478,36 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).direction" >
+<strong>Scene.direction</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field direction</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#boolean</em>
+<a id="#(Scene).dirty" >
+<strong>Scene.dirty</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field dirty (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#number</em>
 <a id="#(Scene).elapsedTime" >
 <strong>Scene.elapsedTime</strong>
@@ -1681,6 +5516,21 @@ Extends Node</p>
 <dd>
 	
 <p>Field elapsedTime</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#boolean</em>
+<a id="#(Scene).enabled" >
+<strong>Scene.enabled</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field enabled</p>
 
 
 </dd>
@@ -1703,6 +5553,36 @@ Extends Node</p>
 		<dl class="function">
 <dt>
 
+		<em>#string</em>
+<a id="#(Scene).name" >
+<strong>Scene.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(Scene).nameHash" >
+<strong>Scene.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Scene).new" >
 <strong>Scene.new()</strong>
 </a>
@@ -1714,7 +5594,142 @@ Extends Node</p>
 
 		<h3>Return value</h3>
 				
-<p><em><a href="Scene.html##(Scene)">Scene#Scene</a>:</em></p>
+<p><em><a href="Node.html##(Node)">Node#Node</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Scene).numComponents" >
+<strong>Scene.numComponents</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field numComponents (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Scene).numNetworkComponents" >
+<strong>Scene.numNetworkComponents</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field numNetworkComponents (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Connection.html##(Connection)">Connection#Connection</a></em>
+<a id="#(Scene).owner" >
+<strong>Scene.owner</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field owner</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Node.html##(Node)">Node#Node</a></em>
+<a id="#(Scene).parent" >
+<strong>Scene.parent</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field parent</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).position" >
+<strong>Scene.position</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field position</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).right" >
+<strong>Scene.right</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field right (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a></em>
+<a id="#(Scene).rotation" >
+<strong>Scene.rotation</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field rotation</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).scale" >
+<strong>Scene.scale</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field scale</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Scene.html##(Scene)">Scene#Scene</a></em>
+<a id="#(Scene).scene" >
+<strong>Scene.scene</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field scene</p>
 
 
 </dd>
@@ -1753,6 +5768,21 @@ Extends Node</p>
 <dt>
 
 		<em>#boolean</em>
+<a id="#(Scene).temporary" >
+<strong>Scene.temporary</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field temporary</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#boolean</em>
 <a id="#(Scene).threadedUpdate" >
 <strong>Scene.threadedUpdate</strong>
 </a>
@@ -1775,6 +5805,66 @@ Extends Node</p>
 <dd>
 	
 <p>Field timeScale</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Matrix3x4.html##(Matrix3x4)">Matrix3x4#Matrix3x4</a></em>
+<a id="#(Scene).transform" >
+<strong>Scene.transform</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field transform (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Scene).type" >
+<strong>Scene.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Scene).typeName" >
+<strong>Scene.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).up" >
+<strong>Scene.up</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field up (Read only)</p>
 
 
 </dd>
@@ -1805,6 +5895,111 @@ Extends Node</p>
 <dd>
 	
 <p>Field varNamesAttr</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).worldDirection" >
+<strong>Scene.worldDirection</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldDirection</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).worldPosition" >
+<strong>Scene.worldPosition</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldPosition</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).worldRight" >
+<strong>Scene.worldRight</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldRight (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Quaternion.html##(Quaternion)">Quaternion#Quaternion</a></em>
+<a id="#(Scene).worldRotation" >
+<strong>Scene.worldRotation</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldRotation</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).worldScale" >
+<strong>Scene.worldScale</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldScale</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Matrix3x4.html##(Matrix3x4)">Matrix3x4#Matrix3x4</a></em>
+<a id="#(Scene).worldTransform" >
+<strong>Scene.worldTransform</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldTransform (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a></em>
+<a id="#(Scene).worldUp" >
+<strong>Scene.worldUp</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field worldUp (Read only)</p>
 
 
 </dd>

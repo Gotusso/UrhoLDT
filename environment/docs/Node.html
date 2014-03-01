@@ -213,7 +213,7 @@
    <h1>Module <code>Node</code></h1>
    
 <p>Module Node
-Extends Serializable</p>
+extends Serializable</p>
 
 
 	<h2><a id="#(Node)" >Type <code>Node</code></a></h2>
@@ -264,6 +264,20 @@ Extends Serializable</p>
 		<td class="name" nowrap="nowrap"><a href="##(Node).CreateScriptObject">Node.CreateScriptObject(fileNamefileName, scriptObjectTypescriptObjectType)</a></td>
 		<td class="summary">
 <p>Function CreateScriptObject</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).GetBaseType">Node.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).GetCategory">Node.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -436,6 +450,20 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).GetType">Node.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).GetTypeName">Node.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Node).GetUp">Node.GetUp()</a></td>
 		<td class="summary">
 <p>Function GetUp</p>
@@ -586,6 +614,13 @@ Extends Serializable</p>
 		<td class="name" nowrap="nowrap"><a href="##(Node).IsEnabled">Node.IsEnabled()</a></td>
 		<td class="summary">
 <p>Function IsEnabled</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).IsTemporary">Node.IsTemporary()</a></td>
+		<td class="summary">
+<p>Function IsTemporary</p>
 
 </td>
 		</tr>
@@ -751,6 +786,13 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).SendEvent">Node.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Node).SetDirection">Node.SetDirection(directiondirection)</a></td>
 		<td class="summary">
 <p>Function SetDirection</p>
@@ -845,6 +887,13 @@ Extends Serializable</p>
 		<td class="name" nowrap="nowrap"><a href="##(Node).SetScene">Node.SetScene(scenescene)</a></td>
 		<td class="summary">
 <p>Function SetScene</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).SetTemporary">Node.SetTemporary(enableenable)</a></td>
+		<td class="summary">
+<p>Function SetTemporary</p>
 
 </td>
 		</tr>
@@ -968,6 +1017,20 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).baseType">Node.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).category">Node.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Node).delete">Node.delete()</a></td>
 		<td class="summary">
 <p>Function delete</p>
@@ -1080,9 +1143,30 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).temporary">Node.temporary</a></td>
+		<td class="summary">
+<p>Field temporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Node).transform">Node.transform</a></td>
 		<td class="summary">
 <p>Field transform (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).type">Node.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Node).typeName">Node.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
 
 </td>
 		</tr>
@@ -1347,6 +1431,44 @@ Extends Serializable</p>
 				
 <p><em>#number:</em></p>
 
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Node).GetBaseType" >
+<strong>Node.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Node).GetCategory" >
+<strong>Node.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
 
 </dd>
 </dl>
@@ -1924,6 +2046,44 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Node).GetType" >
+<strong>Node.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Node).GetTypeName" >
+<strong>Node.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Node).GetUp" >
 <strong>Node.GetUp()</strong>
 </a>
@@ -2451,6 +2611,25 @@ Extends Serializable</p>
 <dd>
 	
 <p>Function IsEnabled</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Node).IsTemporary" >
+<strong>Node.IsTemporary()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function IsTemporary</p>
 
 
 		<h3>Return value</h3>
@@ -3066,6 +3245,33 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Node).SendEvent" >
+<strong>Node.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Node).SetDirection" >
 <strong>Node.SetDirection(directiondirection)</strong>
 </a>
@@ -3411,6 +3617,28 @@ Extends Serializable</p>
 				<li>
 				
 <p><code><em><a href="Scene.html##(Scene)">Scene#Scene</a> scenescene </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Node).SetTemporary" >
+<strong>Node.SetTemporary(enableenable)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetTemporary</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean enableenable </em></code>: </p>
 
 				</li>
 		</ul>
@@ -3888,6 +4116,36 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Node).baseType" >
+<strong>Node.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Node).category" >
+<strong>Node.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Node).delete" >
 <strong>Node.delete()</strong>
 </a>
@@ -4131,6 +4389,21 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+		<em>#boolean</em>
+<a id="#(Node).temporary" >
+<strong>Node.temporary</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field temporary</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em><a href="Matrix3x4.html##(Matrix3x4)">Matrix3x4#Matrix3x4</a></em>
 <a id="#(Node).transform" >
 <strong>Node.transform</strong>
@@ -4139,6 +4412,36 @@ Extends Serializable</p>
 <dd>
 	
 <p>Field transform (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Node).type" >
+<strong>Node.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Node).typeName" >
+<strong>Node.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

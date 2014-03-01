@@ -452,7 +452,7 @@ function classClass:print(ident,close)
   end
   currentClass = nil
 
-  table.insert(classes, class)
+  classes[class.name] = class
 end
 
 function classCode:print(ident,close)
@@ -611,31 +611,34 @@ function writeClass(file, class)
   file:write("---\n")
   file:write("-- Module " .. class.name .. "\n")
   if class.base ~= "" then
-    file:write("-- Extends " .. class.base .. "\n")
+    file:write("-- extends " .. class.base .. "\n")
   end
   
   file:write("--\n")
   file:write("-- @module " .. class.name .. "\n\n")
 
-  -- FIXME! Write also methods and properties from parent classes
+  local target = class
+  while target do
+	if target.functions ~= nil then
+	  for i, func in ipairs(target.functions) do
+	    writeFunction(file, class.name, func)
+	  end
+	end
 
-  if class.functions ~= nil then
-    for i, func in ipairs(class.functions) do
-        writeFunction(file, class.name, func)
-    end
-  end
+	if target.properties ~= nil then
+	  for i, property in ipairs(target.properties) do
+	    writeProperty(file, class.name, property, property.mod:find("tolua_readonly"))
+	  end
+	end
 
-  if class.properties ~= nil then
-    for i, property in ipairs(class.properties) do
-      writeProperty(file, class.name, property, property.mod:find("tolua_readonly"))
-    end
+	target = classes[target.base]
   end
 
   file:write("\n")
 end
 
 function writeClasses(filedir)
-  for i, class in ipairs(classes) do
+  for name, class in pairs(classes) do
     local file = io.open(filedir..class.name..".lua", "wt")
     
     writeClass(file, class)

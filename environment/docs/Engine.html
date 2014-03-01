@@ -213,7 +213,7 @@
    <h1>Module <code>Engine</code></h1>
    
 <p>Module Engine
-Extends Object</p>
+extends Object</p>
 
 
 	<h2><a id="#(Engine)" >Type <code>Engine</code></a></h2>
@@ -268,6 +268,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).GetBaseType">Engine.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).GetCategory">Engine.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Engine).GetMaxFps">Engine.GetMaxFps()</a></td>
 		<td class="summary">
 <p>Function GetMaxFps</p>
@@ -303,6 +317,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).GetType">Engine.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).GetTypeName">Engine.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Engine).IsExiting">Engine.IsExiting()</a></td>
 		<td class="summary">
 <p>Function IsExiting</p>
@@ -327,6 +355,13 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Engine).RunFrame">Engine.RunFrame()</a></td>
 		<td class="summary">
 <p>Function RunFrame</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).SendEvent">Engine.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
 
 </td>
 		</tr>
@@ -376,6 +411,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Engine).autoExit">Engine.autoExit</a></td>
 		<td class="summary">
 <p>Field autoExit</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).baseType">Engine.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).category">Engine.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
 
 </td>
 		</tr>
@@ -432,6 +481,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Engine).timeStepSmoothing">Engine.timeStepSmoothing</a></td>
 		<td class="summary">
 <p>Field timeStepSmoothing</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).type">Engine.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Engine).typeName">Engine.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
 
 </td>
 		</tr>
@@ -555,6 +618,44 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Engine).GetBaseType" >
+<strong>Engine.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Engine).GetCategory" >
+<strong>Engine.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Engine).GetMaxFps" >
 <strong>Engine.GetMaxFps()</strong>
 </a>
@@ -650,6 +751,44 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Engine).GetType" >
+<strong>Engine.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Engine).GetTypeName" >
+<strong>Engine.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Engine).IsExiting" >
 <strong>Engine.IsExiting()</strong>
 </a>
@@ -716,6 +855,33 @@ Extends Object</p>
 <p>Function RunFrame</p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Engine).SendEvent" >
+<strong>Engine.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -868,6 +1034,36 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Engine).baseType" >
+<strong>Engine.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Engine).category" >
+<strong>Engine.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#boolean</em>
 <a id="#(Engine).exiting" >
 <strong>Engine.exiting</strong>
@@ -981,6 +1177,36 @@ Extends Object</p>
 <dd>
 	
 <p>Field timeStepSmoothing</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Engine).type" >
+<strong>Engine.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Engine).typeName" >
+<strong>Engine.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

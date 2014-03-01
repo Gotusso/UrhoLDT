@@ -213,7 +213,7 @@
    <h1>Module <code>XMLFile</code></h1>
    
 <p>Module XMLFile
-Extends Resource</p>
+extends Resource</p>
 
 
 	<h2><a id="#(XMLFile)" >Type <code>XMLFile</code></a></h2>
@@ -226,6 +226,27 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).GetMemoryUse">XMLFile.GetMemoryUse()</a></td>
+		<td class="summary">
+<p>Function GetMemoryUse</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).GetName">XMLFile.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).GetNameHash">XMLFile.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(XMLFile).GetRoot">XMLFile.GetRoot(namename)</a></td>
 		<td class="summary">
 <p>Function GetRoot</p>
@@ -233,9 +254,23 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).Load">XMLFile.Load(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Load</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(XMLFile).Patch">XMLFile.Patch(patchElementpatchElement)</a></td>
 		<td class="summary">
 <p>Function Patch</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).Save">XMLFile.Save(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Save</p>
 
 </td>
 		</tr>
@@ -250,6 +285,27 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(XMLFile).delete">XMLFile.delete()</a></td>
 		<td class="summary">
 <p>Function delete</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).memoryUse">XMLFile.memoryUse</a></td>
+		<td class="summary">
+<p>Field memoryUse (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).name">XMLFile.name</a></td>
+		<td class="summary">
+<p>Field name (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(XMLFile).nameHash">XMLFile.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
 
 </td>
 		</tr>
@@ -294,6 +350,63 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(XMLFile).GetMemoryUse" >
+<strong>XMLFile.GetMemoryUse()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetMemoryUse</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(XMLFile).GetName" >
+<strong>XMLFile.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(XMLFile).GetNameHash" >
+<strong>XMLFile.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(XMLFile).GetRoot" >
 <strong>XMLFile.GetRoot(namename)</strong>
 </a>
@@ -314,6 +427,33 @@ Extends Resource</p>
 		<h3>Return value</h3>
 				
 <p><em><a href="XMLElement.html##(XMLElement)">XMLElement#XMLElement</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(XMLFile).Load" >
+<strong>XMLFile.Load(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Load</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
 
 
 </dd>
@@ -343,6 +483,33 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(XMLFile).Save" >
+<strong>XMLFile.Save(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Save</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(XMLFile).XMLFile" >
 <strong>XMLFile.XMLFile()</strong>
 </a>
@@ -364,6 +531,51 @@ Extends Resource</p>
 <dd>
 	
 <p>Function delete</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(XMLFile).memoryUse" >
+<strong>XMLFile.memoryUse</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field memoryUse (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(XMLFile).name" >
+<strong>XMLFile.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(XMLFile).nameHash" >
+<strong>XMLFile.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
 
 
 </dd>

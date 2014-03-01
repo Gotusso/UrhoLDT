@@ -213,7 +213,7 @@
    <h1>Module <code>Material</code></h1>
    
 <p>Module Material
-Extends Resource</p>
+extends Resource</p>
 
 
 	<h2><a id="#(Material)" >Type <code>Material</code></a></h2>
@@ -243,6 +243,27 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Material).GetDepthBias">Material.GetDepthBias()</a></td>
 		<td class="summary">
 <p>Function GetDepthBias</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).GetMemoryUse">Material.GetMemoryUse()</a></td>
+		<td class="summary">
+<p>Function GetMemoryUse</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).GetName">Material.GetName()</a></td>
+		<td class="summary">
+<p>Function GetName</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).GetNameHash">Material.GetNameHash()</a></td>
+		<td class="summary">
+<p>Function GetNameHash</p>
 
 </td>
 		</tr>
@@ -296,6 +317,13 @@ Extends Resource</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).Load">Material.Load(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Load</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Material).MarkForAuxView">Material.MarkForAuxView(frameNumberframeNumber)</a></td>
 		<td class="summary">
 <p>Function MarkForAuxView</p>
@@ -320,6 +348,13 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Material).RemoveShaderParameter">Material.RemoveShaderParameter(namename)</a></td>
 		<td class="summary">
 <p>Function RemoveShaderParameter</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).Save">Material.Save(fileNamefileName)</a></td>
+		<td class="summary">
+<p>Function Save</p>
 
 </td>
 		</tr>
@@ -404,6 +439,27 @@ Extends Resource</p>
 		<td class="name" nowrap="nowrap"><a href="##(Material).delete">Material.delete()</a></td>
 		<td class="summary">
 <p>Function delete</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).memoryUse">Material.memoryUse</a></td>
+		<td class="summary">
+<p>Field memoryUse (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).name">Material.name</a></td>
+		<td class="summary">
+<p>Field name (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Material).nameHash">Material.nameHash</a></td>
+		<td class="summary">
+<p>Field nameHash (Read only)</p>
 
 </td>
 		</tr>
@@ -520,6 +576,63 @@ Extends Resource</p>
 				
 
 <p>const BiasParameters#const BiasParameters</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Material).GetMemoryUse" >
+<strong>Material.GetMemoryUse()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetMemoryUse</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#number:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Material).GetName" >
+<strong>Material.GetName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Material).GetNameHash" >
+<strong>Material.GetNameHash()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetNameHash</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a>:</em></p>
+
 
 </dd>
 </dl>
@@ -688,6 +801,33 @@ Extends Resource</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Material).Load" >
+<strong>Material.Load(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Load</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Material).MarkForAuxView" >
 <strong>Material.MarkForAuxView(frameNumberframeNumber)</strong>
 </a>
@@ -755,6 +895,33 @@ Extends Resource</p>
 
 				</li>
 		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Material).Save" >
+<strong>Material.Save(fileNamefileName)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function Save</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
 </dd>
 </dl>
 		<dl class="function">
@@ -1022,6 +1189,51 @@ Extends Resource</p>
 <dd>
 	
 <p>Function delete</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#number</em>
+<a id="#(Material).memoryUse" >
+<strong>Material.memoryUse</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field memoryUse (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Material).name" >
+<strong>Material.name</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field name (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="StringHash.html##(StringHash)">StringHash#StringHash</a></em>
+<a id="#(Material).nameHash" >
+<strong>Material.nameHash</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field nameHash (Read only)</p>
 
 
 </dd>

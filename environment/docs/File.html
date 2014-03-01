@@ -213,7 +213,7 @@
    <h1>Module <code>File</code></h1>
    
 <p>Module File
-Extends Object</p>
+extends Object</p>
 
 
 	<h2><a id="#(File)" >Type <code>File</code></a></h2>
@@ -236,6 +236,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(File).Flush">File.Flush()</a></td>
 		<td class="summary">
 <p>Function Flush</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).GetBaseType">File.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).GetCategory">File.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -278,6 +292,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(File).GetSize">File.GetSize()</a></td>
 		<td class="summary">
 <p>Function GetSize</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).GetType">File.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).GetTypeName">File.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
 
 </td>
 		</tr>
@@ -548,6 +576,13 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).SendEvent">File.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(File).SetName">File.SetName(namename)</a></td>
 		<td class="summary">
 <p>Function SetName</p>
@@ -793,6 +828,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).baseType">File.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).category">File.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(File).checksum">File.checksum</a></td>
 		<td class="summary">
 <p>Field checksum (Read only)</p>
@@ -862,6 +911,20 @@ Extends Object</p>
 
 </td>
 		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).type">File.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(File).typeName">File.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
 	</table>
 
 	<h2><a id="#(File)" >Type <code>File</code></a></h2>
@@ -918,6 +981,44 @@ Extends Object</p>
 	
 <p>Function Flush</p>
 
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(File).GetBaseType" >
+<strong>File.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(File).GetCategory" >
+<strong>File.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
 
 </dd>
 </dl>
@@ -1032,6 +1133,44 @@ Extends Object</p>
 				
 <p><em>#number:</em></p>
 
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(File).GetType" >
+<strong>File.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(File).GetTypeName" >
+<strong>File.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
 
 </dd>
 </dl>
@@ -1800,6 +1939,33 @@ Extends Object</p>
 <p><em>#number:</em></p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(File).SendEvent" >
+<strong>File.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -2750,6 +2916,36 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(File).baseType" >
+<strong>File.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(File).category" >
+<strong>File.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#number</em>
 <a id="#(File).checksum" >
 <strong>File.checksum</strong>
@@ -2909,6 +3105,36 @@ Extends Object</p>
 <dd>
 	
 <p>Field size (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(File).type" >
+<strong>File.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(File).typeName" >
+<strong>File.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

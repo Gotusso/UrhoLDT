@@ -213,7 +213,7 @@
    <h1>Module <code>Log</code></h1>
    
 <p>Module Log
-Extends Object</p>
+extends Object</p>
 
 
 	<h2><a id="#(Log)" >Type <code>Log</code></a></h2>
@@ -222,6 +222,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Log).Close">Log.Close()</a></td>
 		<td class="summary">
 <p>Function Close</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).GetBaseType">Log.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).GetCategory">Log.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -247,6 +261,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).GetType">Log.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).GetTypeName">Log.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Log).IsQuiet">Log.IsQuiet()</a></td>
 		<td class="summary">
 <p>Function IsQuiet</p>
@@ -257,6 +285,13 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Log).Open">Log.Open(fileNamefileName)</a></td>
 		<td class="summary">
 <p>Function Open</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).SendEvent">Log.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
 
 </td>
 		</tr>
@@ -296,6 +331,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).baseType">Log.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).category">Log.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Log).level">Log.level</a></td>
 		<td class="summary">
 <p>Field level</p>
@@ -316,6 +365,20 @@ Extends Object</p>
 
 </td>
 		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).type">Log.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Log).typeName">Log.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
 	</table>
 
 	<h2><a id="#(Log)" >Type <code>Log</code></a></h2>
@@ -331,6 +394,44 @@ Extends Object</p>
 	
 <p>Function Close</p>
 
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Log).GetBaseType" >
+<strong>Log.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Log).GetCategory" >
+<strong>Log.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
 
 </dd>
 </dl>
@@ -394,6 +495,44 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Log).GetType" >
+<strong>Log.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Log).GetTypeName" >
+<strong>Log.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Log).IsQuiet" >
 <strong>Log.IsQuiet()</strong>
 </a>
@@ -427,6 +566,33 @@ Extends Object</p>
 				<li>
 				
 <p><code><em>#string fileNamefileName </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Log).SendEvent" >
+<strong>Log.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
 
 				</li>
 		</ul>
@@ -555,6 +721,36 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Log).baseType" >
+<strong>Log.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Log).category" >
+<strong>Log.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#number</em>
 <a id="#(Log).level" >
 <strong>Log.level</strong>
@@ -593,6 +789,36 @@ Extends Object</p>
 <dd>
 	
 <p>Field timeStamp</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Log).type" >
+<strong>Log.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Log).typeName" >
+<strong>Log.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

@@ -213,7 +213,7 @@
    <h1>Module <code>Input</code></h1>
    
 <p>Module Input
-Extends Object</p>
+extends Object</p>
 
 
 	<h2><a id="#(Input)" >Type <code>Input</code></a></h2>
@@ -229,6 +229,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Input).DetectJoysticks">Input.DetectJoysticks()</a></td>
 		<td class="summary">
 <p>Function DetectJoysticks</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).GetBaseType">Input.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).GetCategory">Input.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -366,6 +380,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).GetType">Input.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).GetTypeName">Input.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Input).HasFocus">Input.HasFocus()</a></td>
 		<td class="summary">
 <p>Function HasFocus</p>
@@ -401,6 +429,13 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).SendEvent">Input.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Input).SetMouseVisible">Input.SetMouseVisible(enableenable)</a></td>
 		<td class="summary">
 <p>Function SetMouseVisible</p>
@@ -418,6 +453,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Input).SetToggleFullscreen">Input.SetToggleFullscreen(enableenable)</a></td>
 		<td class="summary">
 <p>Function SetToggleFullscreen</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).baseType">Input.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).category">Input.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
 
 </td>
 		</tr>
@@ -519,6 +568,20 @@ Extends Object</p>
 
 </td>
 		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).type">Input.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Input).typeName">Input.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
 	</table>
 
 	<h2><a id="#(Input)" >Type <code>Input</code></a></h2>
@@ -561,6 +624,44 @@ Extends Object</p>
 				
 <p><em>#boolean:</em></p>
 
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Input).GetBaseType" >
+<strong>Input.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Input).GetCategory" >
+<strong>Input.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
 
 </dd>
 </dl>
@@ -1000,6 +1101,44 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Input).GetType" >
+<strong>Input.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Input).GetTypeName" >
+<strong>Input.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Input).HasFocus" >
 <strong>Input.HasFocus()</strong>
 </a>
@@ -1103,6 +1242,33 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Input).SendEvent" >
+<strong>Input.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Input).SetMouseVisible" >
 <strong>Input.SetMouseVisible(enableenable)</strong>
 </a>
@@ -1164,6 +1330,36 @@ Extends Object</p>
 
 				</li>
 		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Input).baseType" >
+<strong>Input.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Input).category" >
+<strong>Input.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
 </dd>
 </dl>
 		<dl class="function">
@@ -1372,6 +1568,36 @@ Extends Object</p>
 <dd>
 	
 <p>Field toggleFullscreen (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Input).type" >
+<strong>Input.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Input).typeName" >
+<strong>Input.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

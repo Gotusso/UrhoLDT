@@ -213,7 +213,7 @@
    <h1>Module <code>Audio</code></h1>
    
 <p>Module Audio
-Extends Object</p>
+extends Object</p>
 
 
 	<h2><a id="#(Audio)" >Type <code>Audio</code></a></h2>
@@ -222,6 +222,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Audio).AddSoundSource">Audio.AddSoundSource(soundSourcesoundSource)</a></td>
 		<td class="summary">
 <p>Function AddSoundSource</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).GetBaseType">Audio.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).GetCategory">Audio.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -275,6 +289,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).GetType">Audio.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).GetTypeName">Audio.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Audio).IsInitialized">Audio.IsInitialized()</a></td>
 		<td class="summary">
 <p>Function IsInitialized</p>
@@ -317,6 +345,13 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).SendEvent">Audio.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Audio).SetListener">Audio.SetListener(listenerlistener)</a></td>
 		<td class="summary">
 <p>Function SetListener</p>
@@ -348,6 +383,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(Audio).StopSound">Audio.StopSound(soundsound)</a></td>
 		<td class="summary">
 <p>Function StopSound</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).baseType">Audio.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).category">Audio.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
 
 </td>
 		</tr>
@@ -400,6 +449,20 @@ Extends Object</p>
 
 </td>
 		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).type">Audio.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Audio).typeName">Audio.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
 	</table>
 
 	<h2><a id="#(Audio)" >Type <code>Audio</code></a></h2>
@@ -424,6 +487,44 @@ Extends Object</p>
 
 				</li>
 		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Audio).GetBaseType" >
+<strong>Audio.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Audio).GetCategory" >
+<strong>Audio.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
 </dd>
 </dl>
 		<dl class="function">
@@ -578,6 +679,44 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Audio).GetType" >
+<strong>Audio.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Audio).GetTypeName" >
+<strong>Audio.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Audio).IsInitialized" >
 <strong>Audio.IsInitialized()</strong>
 </a>
@@ -696,6 +835,33 @@ Extends Object</p>
 				<li>
 				
 <p><code><em><a href="SoundSource.html##(SoundSource)">SoundSource#SoundSource</a> soundSourcesoundSource </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Audio).SendEvent" >
+<strong>Audio.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
 
 				</li>
 		</ul>
@@ -831,6 +997,36 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Audio).baseType" >
+<strong>Audio.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Audio).category" >
+<strong>Audio.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#boolean</em>
 <a id="#(Audio).initialized" >
 <strong>Audio.initialized</strong>
@@ -929,6 +1125,36 @@ Extends Object</p>
 <dd>
 	
 <p>Field stereo (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Audio).type" >
+<strong>Audio.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Audio).typeName" >
+<strong>Audio.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

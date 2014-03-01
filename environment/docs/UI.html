@@ -213,7 +213,7 @@
    <h1>Module <code>UI</code></h1>
    
 <p>Module UI
-Extends Object</p>
+extends Object</p>
 
 
 	<h2><a id="#(UI)" >Type <code>UI</code></a></h2>
@@ -229,6 +229,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(UI).DebugDraw">UI.DebugDraw(elementelement)</a></td>
 		<td class="summary">
 <p>Function DebugDraw</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).GetBaseType">UI.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).GetCategory">UI.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
 
 </td>
 		</tr>
@@ -338,6 +352,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).GetType">UI.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).GetTypeName">UI.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UI).GetUseMutableGlyphs">UI.GetUseMutableGlyphs()</a></td>
 		<td class="summary">
 <p>Function GetUseMutableGlyphs</p>
@@ -390,6 +418,13 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(UI).SaveLayout">UI.SaveLayout(destdest, elementelement)</a></td>
 		<td class="summary">
 <p>Function SaveLayout</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).SendEvent">UI.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
 
 </td>
 		</tr>
@@ -495,6 +530,20 @@ Extends Object</p>
 		<td class="name" nowrap="nowrap"><a href="##(UI).Update">UI.Update(timeSteptimeStep)</a></td>
 		<td class="summary">
 <p>Function Update</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).baseType">UI.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).category">UI.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
 
 </td>
 		</tr>
@@ -611,6 +660,20 @@ Extends Object</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).type">UI.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(UI).typeName">UI.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(UI).useMutableGlyphs">UI.useMutableGlyphs</a></td>
 		<td class="summary">
 <p>Field useMutableGlyphs</p>
@@ -669,6 +732,44 @@ Extends Object</p>
 
 				</li>
 		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UI).GetBaseType" >
+<strong>UI.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UI).GetCategory" >
+<strong>UI.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
 </dd>
 </dl>
 		<dl class="function">
@@ -977,6 +1078,44 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+<a id="#(UI).GetType" >
+<strong>UI.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UI).GetTypeName" >
+<strong>UI.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(UI).GetUseMutableGlyphs" >
 <strong>UI.GetUseMutableGlyphs()</strong>
 </a>
@@ -1127,6 +1266,33 @@ Extends Object</p>
 <p><em>#boolean:</em></p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(UI).SendEvent" >
+<strong>UI.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -1477,6 +1643,36 @@ Extends Object</p>
 		<dl class="function">
 <dt>
 
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(UI).baseType" >
+<strong>UI.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(UI).category" >
+<strong>UI.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 		<em>#string</em>
 <a id="#(UI).clipBoardText" >
 <strong>UI.clipBoardText</strong>
@@ -1710,6 +1906,36 @@ Extends Object</p>
 <dd>
 	
 <p>Field rootModalElement (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(UI).type" >
+<strong>UI.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(UI).typeName" >
+<strong>UI.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
 
 
 </dd>

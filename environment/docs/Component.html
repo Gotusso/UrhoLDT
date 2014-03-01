@@ -213,11 +213,25 @@
    <h1>Module <code>Component</code></h1>
    
 <p>Module Component
-Extends Serializable</p>
+extends Serializable</p>
 
 
 	<h2><a id="#(Component)" >Type <code>Component</code></a></h2>
 		<table class="function_list">
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).GetBaseType">Component.GetBaseType()</a></td>
+		<td class="summary">
+<p>Function GetBaseType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).GetCategory">Component.GetCategory()</a></td>
+		<td class="summary">
+<p>Function GetCategory</p>
+
+</td>
+		</tr>
 		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Component).GetComponent">Component.GetComponent(typetype)</a></td>
 		<td class="summary">
@@ -247,6 +261,20 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).GetType">Component.GetType()</a></td>
+		<td class="summary">
+<p>Function GetType</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).GetTypeName">Component.GetTypeName()</a></td>
+		<td class="summary">
+<p>Function GetTypeName</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Component).IsEnabled">Component.IsEnabled()</a></td>
 		<td class="summary">
 <p>Function IsEnabled</p>
@@ -261,9 +289,23 @@ Extends Serializable</p>
 </td>
 		</tr>
 		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).IsTemporary">Component.IsTemporary()</a></td>
+		<td class="summary">
+<p>Function IsTemporary</p>
+
+</td>
+		</tr>
+		<tr>
 		<td class="name" nowrap="nowrap"><a href="##(Component).Remove">Component.Remove()</a></td>
 		<td class="summary">
 <p>Function Remove</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).SendEvent">Component.SendEvent(eventNameeventName, eventDataeventData)</a></td>
+		<td class="summary">
+<p>Function SendEvent</p>
 
 </td>
 		</tr>
@@ -274,10 +316,90 @@ Extends Serializable</p>
 
 </td>
 		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).SetTemporary">Component.SetTemporary(enableenable)</a></td>
+		<td class="summary">
+<p>Function SetTemporary</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).baseType">Component.baseType</a></td>
+		<td class="summary">
+<p>Field baseType (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).category">Component.category</a></td>
+		<td class="summary">
+<p>Field category (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).temporary">Component.temporary</a></td>
+		<td class="summary">
+<p>Field temporary</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).type">Component.type</a></td>
+		<td class="summary">
+<p>Field type (Read only)</p>
+
+</td>
+		</tr>
+		<tr>
+		<td class="name" nowrap="nowrap"><a href="##(Component).typeName">Component.typeName</a></td>
+		<td class="summary">
+<p>Field typeName (Read only)</p>
+
+</td>
+		</tr>
 	</table>
 
 	<h2><a id="#(Component)" >Type <code>Component</code></a></h2>
 		<h3>Field(s)</h3>
+		<dl class="function">
+<dt>
+
+<a id="#(Component).GetBaseType" >
+<strong>Component.GetBaseType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetBaseType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Component).GetCategory" >
+<strong>Component.GetCategory()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetCategory</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
 		<dl class="function">
 <dt>
 
@@ -365,6 +487,44 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Component).GetType" >
+<strong>Component.GetType()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetType</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a>:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Component).GetTypeName" >
+<strong>Component.GetTypeName()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function GetTypeName</p>
+
+
+		<h3>Return value</h3>
+				
+
+<p>const String#const String</p>
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Component).IsEnabled" >
 <strong>Component.IsEnabled()</strong>
 </a>
@@ -403,6 +563,25 @@ Extends Serializable</p>
 		<dl class="function">
 <dt>
 
+<a id="#(Component).IsTemporary" >
+<strong>Component.IsTemporary()</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function IsTemporary</p>
+
+
+		<h3>Return value</h3>
+				
+<p><em>#boolean:</em></p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
 <a id="#(Component).Remove" >
 <strong>Component.Remove()</strong>
 </a>
@@ -412,6 +591,33 @@ Extends Serializable</p>
 <p>Function Remove</p>
 
 
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Component).SendEvent" >
+<strong>Component.SendEvent(eventNameeventName, eventDataeventData)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SendEvent</p>
+
+
+		<h3>Parameters</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#string eventNameeventName </em></code>: </p>
+
+				</li>
+				<li>
+				
+<p><code><em><a href="VariantMap.html##(VariantMap)">VariantMap#VariantMap</a> eventDataeventData </em></code>: </p>
+
+				</li>
+		</ul>
 </dd>
 </dl>
 		<dl class="function">
@@ -434,6 +640,103 @@ Extends Serializable</p>
 
 				</li>
 		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+<a id="#(Component).SetTemporary" >
+<strong>Component.SetTemporary(enableenable)</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Function SetTemporary</p>
+
+
+		<h3>Parameter</h3>
+		<ul>
+				<li>
+				
+<p><code><em>#boolean enableenable </em></code>: </p>
+
+				</li>
+		</ul>
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Component).baseType" >
+<strong>Component.baseType</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field baseType (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Component).category" >
+<strong>Component.category</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field category (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#boolean</em>
+<a id="#(Component).temporary" >
+<strong>Component.temporary</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field temporary</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em><a href="ShortStringHash.html##(ShortStringHash)">ShortStringHash#ShortStringHash</a></em>
+<a id="#(Component).type" >
+<strong>Component.type</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field type (Read only)</p>
+
+
+</dd>
+</dl>
+		<dl class="function">
+<dt>
+
+		<em>#string</em>
+<a id="#(Component).typeName" >
+<strong>Component.typeName</strong>
+</a>
+</dt>
+<dd>
+	
+<p>Field typeName (Read only)</p>
+
+
 </dd>
 </dl>
 
