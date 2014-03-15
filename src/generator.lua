@@ -611,8 +611,9 @@ function writeClass(file, class)
   file:write("---\n")
   file:write("-- Module " .. class.name .. "\n")
   if class.base ~= "" then
-    file:write("-- extends " .. class.base .. "\n")
+    file:write("-- Module " .. class.name .. " extends " .. class.base .. "\n")
   end
+  file:write("-- Generated on " .. os.date('%Y-%m-%d') .. "\n")
   
   file:write("--\n")
   file:write("-- @module " .. class.name .. "\n\n")
@@ -678,6 +679,7 @@ function writeFunction(file, moduleName, func)
 
   -- write function header
   file:write("-- @function [parent=#" .. moduleName .. "] " .. func.name .. "\n")
+  file:write("-- @param self Self reference\n")
 
   -- write parameters
   if func.declarations ~= nil then
@@ -685,7 +687,7 @@ function writeFunction(file, moduleName, func)
     for i = 1, count do
       local declaration = func.declarations[i]
       if declaration.type ~= "void" then
-        file:write("-- @param " .. getTypeReference(declaration.type:gsub("const ", "")) .. " " .. declaration.name .. declaration.name)
+        file:write("-- @param " .. getTypeReference(declaration.type:gsub("const ", "")) .. " " .. declaration.name .. " " .. declaration.name)
         -- add paramter default value
         if declaration.def ~= "" then
           line = "(Default: " .. declaration.def .. ")"

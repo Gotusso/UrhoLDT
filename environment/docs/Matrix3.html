@@ -212,13 +212,14 @@
 	<div id="content">
    <h1>Module <code>Matrix3</code></h1>
    
-<p>Module Matrix3</p>
+<p>Module Matrix3
+Generated on 2014-03-13</p>
 
 
 	<h2><a id="#(Matrix3)" >Type <code>Matrix3</code></a></h2>
 		<table class="function_list">
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Equals">Matrix3.Equals(rhsrhs)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Equals">Matrix3:Equals(rhs)</a></td>
 		<td class="summary">
 <p>Function Equals</p>
 
@@ -232,42 +233,42 @@
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Inverse">Matrix3.Inverse()</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Inverse">Matrix3:Inverse()</a></td>
 		<td class="summary">
 <p>Function Inverse</p>
 
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Matrix3">Matrix3.Matrix3(v00v00, v01v01, v02v02, v10v10, v11v11, v12v12, v20v20, v21v21, v22v22)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Matrix3">Matrix3:Matrix3(v00, v01, v02, v10, v11, v12, v20, v21, v22)</a></td>
 		<td class="summary">
 <p>Function Matrix3</p>
 
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Scale">Matrix3.Scale()</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Scale">Matrix3:Scale()</a></td>
 		<td class="summary">
 <p>Function Scale</p>
 
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Scaled">Matrix3.Scaled(scalescale)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Scaled">Matrix3:Scaled(scale)</a></td>
 		<td class="summary">
 <p>Function Scaled</p>
 
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).SetScale">Matrix3.SetScale(scalescale)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).SetScale">Matrix3:SetScale(scale)</a></td>
 		<td class="summary">
 <p>Function SetScale</p>
 
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Transpose">Matrix3.Transpose()</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).Transpose">Matrix3:Transpose()</a></td>
 		<td class="summary">
 <p>Function Transpose</p>
 
@@ -281,7 +282,7 @@
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).delete">Matrix3.delete()</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).delete">Matrix3:delete()</a></td>
 		<td class="summary">
 <p>Function delete</p>
 
@@ -351,14 +352,14 @@
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).new">Matrix3.new(v00v00, v01v01, v02v02, v10v10, v11v11, v12v12, v20v20, v21v21, v22v22)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).new">Matrix3:new(v00, v01, v02, v10, v11, v12, v20, v21, v22)</a></td>
 		<td class="summary">
 <p>Function new</p>
 
 </td>
 		</tr>
 		<tr>
-		<td class="name" nowrap="nowrap"><a href="##(Matrix3).operator">Matrix3.operator(rhsrhs)</a></td>
+		<td class="name" nowrap="nowrap"><a href="##(Matrix3).operator">Matrix3:operator(rhs)</a></td>
 		<td class="summary">
 <p>Function operator*</p>
 
@@ -372,7 +373,7 @@
 <dt>
 
 <a id="#(Matrix3).Equals" >
-<strong>Matrix3.Equals(rhsrhs)</strong>
+<strong>Matrix3:Equals(rhs)</strong>
 </a>
 </dt>
 <dd>
@@ -384,7 +385,8 @@
 		<ul>
 				<li>
 				
-<p><code><em><a href="Matrix3.html##(Matrix3)">Matrix3#Matrix3</a> rhsrhs </em></code>: </p>
+<p><code><em><a href="Matrix3.html##(Matrix3)">Matrix3#Matrix3</a> rhs </em></code>: 
+rhs</p>
 
 				</li>
 		</ul>
@@ -414,7 +416,7 @@
 <dt>
 
 <a id="#(Matrix3).Inverse" >
-<strong>Matrix3.Inverse()</strong>
+<strong>Matrix3:Inverse()</strong>
 </a>
 </dt>
 <dd>
@@ -433,7 +435,7 @@
 <dt>
 
 <a id="#(Matrix3).Matrix3" >
-<strong>Matrix3.Matrix3(v00v00, v01v01, v02v02, v10v10, v11v11, v12v12, v20v20, v21v21, v22v22)</strong>
+<strong>Matrix3:Matrix3(v00, v01, v02, v10, v11, v12, v20, v21, v22)</strong>
 </a>
 </dt>
 <dd>
@@ -445,47 +447,56 @@
 		<ul>
 				<li>
 				
-<p><code><em>#number v00v00 </em></code>: </p>
+<p><code><em>#number v00 </em></code>: 
+v00</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v01v01 </em></code>: </p>
+<p><code><em>#number v01 </em></code>: 
+v01</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v02v02 </em></code>: </p>
+<p><code><em>#number v02 </em></code>: 
+v02</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v10v10 </em></code>: </p>
+<p><code><em>#number v10 </em></code>: 
+v10</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v11v11 </em></code>: </p>
+<p><code><em>#number v11 </em></code>: 
+v11</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v12v12 </em></code>: </p>
+<p><code><em>#number v12 </em></code>: 
+v12</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v20v20 </em></code>: </p>
+<p><code><em>#number v20 </em></code>: 
+v20</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v21v21 </em></code>: </p>
+<p><code><em>#number v21 </em></code>: 
+v21</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v22v22 </em></code>: </p>
+<p><code><em>#number v22 </em></code>: 
+v22</p>
 
 				</li>
 		</ul>
@@ -495,7 +506,7 @@
 <dt>
 
 <a id="#(Matrix3).Scale" >
-<strong>Matrix3.Scale()</strong>
+<strong>Matrix3:Scale()</strong>
 </a>
 </dt>
 <dd>
@@ -514,7 +525,7 @@
 <dt>
 
 <a id="#(Matrix3).Scaled" >
-<strong>Matrix3.Scaled(scalescale)</strong>
+<strong>Matrix3:Scaled(scale)</strong>
 </a>
 </dt>
 <dd>
@@ -526,7 +537,8 @@
 		<ul>
 				<li>
 				
-<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scalescale </em></code>: </p>
+<p><code><em><a href="Vector3.html##(Vector3)">Vector3#Vector3</a> scale </em></code>: 
+scale</p>
 
 				</li>
 		</ul>
@@ -541,7 +553,7 @@
 <dt>
 
 <a id="#(Matrix3).SetScale" >
-<strong>Matrix3.SetScale(scalescale)</strong>
+<strong>Matrix3:SetScale(scale)</strong>
 </a>
 </dt>
 <dd>
@@ -553,7 +565,8 @@
 		<ul>
 				<li>
 				
-<p><code><em>#number scalescale </em></code>: </p>
+<p><code><em>#number scale </em></code>: 
+scale</p>
 
 				</li>
 		</ul>
@@ -563,7 +576,7 @@
 <dt>
 
 <a id="#(Matrix3).Transpose" >
-<strong>Matrix3.Transpose()</strong>
+<strong>Matrix3:Transpose()</strong>
 </a>
 </dt>
 <dd>
@@ -597,7 +610,7 @@
 <dt>
 
 <a id="#(Matrix3).delete" >
-<strong>Matrix3.delete()</strong>
+<strong>Matrix3:delete()</strong>
 </a>
 </dt>
 <dd>
@@ -746,7 +759,7 @@
 <dt>
 
 <a id="#(Matrix3).new" >
-<strong>Matrix3.new(v00v00, v01v01, v02v02, v10v10, v11v11, v12v12, v20v20, v21v21, v22v22)</strong>
+<strong>Matrix3:new(v00, v01, v02, v10, v11, v12, v20, v21, v22)</strong>
 </a>
 </dt>
 <dd>
@@ -758,47 +771,56 @@
 		<ul>
 				<li>
 				
-<p><code><em>#number v00v00 </em></code>: </p>
+<p><code><em>#number v00 </em></code>: 
+v00</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v01v01 </em></code>: </p>
+<p><code><em>#number v01 </em></code>: 
+v01</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v02v02 </em></code>: </p>
+<p><code><em>#number v02 </em></code>: 
+v02</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v10v10 </em></code>: </p>
+<p><code><em>#number v10 </em></code>: 
+v10</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v11v11 </em></code>: </p>
+<p><code><em>#number v11 </em></code>: 
+v11</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v12v12 </em></code>: </p>
+<p><code><em>#number v12 </em></code>: 
+v12</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v20v20 </em></code>: </p>
+<p><code><em>#number v20 </em></code>: 
+v20</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v21v21 </em></code>: </p>
+<p><code><em>#number v21 </em></code>: 
+v21</p>
 
 				</li>
 				<li>
 				
-<p><code><em>#number v22v22 </em></code>: </p>
+<p><code><em>#number v22 </em></code>: 
+v22</p>
 
 				</li>
 		</ul>
@@ -813,7 +835,7 @@
 <dt>
 
 <a id="#(Matrix3).operator" >
-<strong>Matrix3.operator(rhsrhs)</strong>
+<strong>Matrix3:operator(rhs)</strong>
 </a>
 </dt>
 <dd>
@@ -825,7 +847,8 @@
 		<ul>
 				<li>
 				
-<p><code><em><a href="Matrix3.html##(Matrix3)">Matrix3#Matrix3</a> rhsrhs </em></code>: </p>
+<p><code><em><a href="Matrix3.html##(Matrix3)">Matrix3#Matrix3</a> rhs </em></code>: 
+rhs</p>
 
 				</li>
 		</ul>
