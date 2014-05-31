@@ -84,8 +84,17 @@ function writeEnumerates(filedir)
 end
 
 function writeFunction(file, moduleName, func)  
+  -- write description
   file:write("---\n")
-  file:write("-- Function " .. func.name .. "\n")
+  file:write("-- Function " .. func.name .. "()\n")
+
+  if func.descriptions ~= nil then
+    for i, description in ipairs(func.descriptions) do
+      local fixedDescription = description:gsub([[(")]], [[\%1]])
+      file:write("-- " .. fixedDescription .. "\n")
+    end
+  end
+
   file:write("--\n")
 
   -- write function header
@@ -163,6 +172,8 @@ function classPackage:print()
     return
   end
 
+  curDir = getCurrentDirectory()
+
   local filename = flags.o
   local fileindex = string.find(filename, "%w+%.lua")
   local filedir = string.sub(filename, 1, fileindex - 1)
@@ -172,6 +183,7 @@ function classPackage:print()
     self[i]:print("","")
     i = i + 1
   end
+  printDescriptionsFromPackageFile(flags.f)
 
   writeClasses(filedir)
   writeEnumerates(filedir)
