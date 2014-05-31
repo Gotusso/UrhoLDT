@@ -61,28 +61,6 @@ function writeClasses(filedir)
 
 end
 
-function writeEnumerates(filedir)
-  for i, enumerate in ipairs(enumerates) do
-    local file = io.open(filedir..enumerate.name..".lua", "wt")
-    
-    file:write("---\n")
-    file:write("-- Enumeration " .. enumerate.name .. "\n")
-    file:write("--\n")
-    file:write("-- @module " .. enumerate.name .. "\n\n")
-    
-    for i, value in ipairs(enumerate.values) do
-      file:write("---\n")
-      file:write("-- Enumeration value " .. value .. "\n")
-      file:write("--\n")
-      file:write("-- @field [parent=#" .. enumerate.name .. "] #number " .. value .. "\n\n")
-    end
-    
-    file:write("\n")
-    file:write("return nil\n")
-    file:close()
-  end
-end
-
 function writeFunction(file, moduleName, func)  
   -- write description
   file:write("---\n")
@@ -145,13 +123,28 @@ function writeGlobalConstants(file)
   file:write("\n")  
 end
 
-function writeGLobalProperties(file)
+function writeGlobalProperties(file)
   sortByName(globalProperties)
 
   for i, property in ipairs(globalProperties) do
     writeProperty(file, "global", property, property.mod:find("tolua_readonly"))
   end
 
+end
+
+function writeEnumerates(file)
+  sortByName(enumerates)
+  for i, enumerate in ipairs(enumerates) do
+    
+    for i, value in ipairs(enumerate.values) do
+      file:write("---\n")
+      file:write("-- Enumeration value " .. enumerate.name .. "." .. value .. "\n")
+      file:write("--\n")
+      file:write("-- @field [parent=#global] #number " .. value .. "\n\n")
+    end
+    
+    file:write("\n")
+  end
 end
 
 function writeProperty(file, moduleName, property, constant)
@@ -186,13 +179,13 @@ function classPackage:print()
   printDescriptionsFromPackageFile(flags.f)
 
   writeClasses(filedir)
-  writeEnumerates(filedir)
 
   local globalfile = io.open(filedir.."global.lua", "a+")
 
   writeGlobalFunctions(globalfile)
-  writeGLobalProperties(globalfile)
+  writeGlobalProperties(globalfile)
   writeGlobalConstants(globalfile)
+  writeEnumerates(globalfile)
 
   globalfile:write("return nil\n")
 
