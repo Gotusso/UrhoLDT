@@ -21,5 +21,5 @@ popd > /dev/null
 pushd out > /dev/null
 rm -f api/api.lua
 rm -f /Urho3D.pkg
-lua ..\lib\luadocumentor-0.1.3\luadocumentor.lua api
+lua ../lib/luadocumentor-0.1.3/luadocumentor.lua api
 popd > /dev/null
